@@ -1,0 +1,35 @@
+---
+layout: page
+
+title: Übersicht
+description: Übersicht.
+
+language: de
+language_reference: overview
+
+published: true
+order: 1
+---
+
+<h2>
+    Letzte Meldungen
+</h2>
+
+{% include posts.html %}
+
+<p> <a href="http://www.itmagazine.ch/Freeware/15454/Quick_Image_Comment.html">
+        <img style="border: 0px currentColor;" src="../assets/images/SwissITMag_Top_Downloads.jpg"
+            alt="SwissITMagazine Top Download" border="0" /></a> 
+    <a title="QuickImageComment, Download bei heise"
+        href="https://www.heise.de/download/product/quickimagecomment-88362">
+        <img title="QuickImageComment, Download bei heise" src="../assets/images/heise_download_logo1.png"
+            alt="QuickImageComment, Download bei heise" /></a>
+    <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+    <ms-store-badge productid="9PGFF2B2FBR8" window-mode="full" theme="auto" language="de" animation="off">
+    </ms-store-badge>
+<h1>Übersicht</h1>
+
+{% capture my_include %}{% include_relative program-desc-de.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
+<a>Weitere Informationen in der </a><a href="Benutzeranleitung.html">Benutzeranleitung</a>.

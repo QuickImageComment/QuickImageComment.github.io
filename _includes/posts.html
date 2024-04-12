@@ -1,0 +1,13 @@
+        <ul>
+          {%- assign posts = site.posts
+            | where: 'language', page.language
+            | where: 'published', true
+            %}
+          {%- for ii in (0..2) %}
+            {% if posts[ii] %}
+              <li>
+              <a href="{{ posts[ii].url | prepend: site.baseurl }}">{{ posts[ii].title }}</a>
+              </li>
+            {% endif %}
+          {%- endfor %}
+        </ul>

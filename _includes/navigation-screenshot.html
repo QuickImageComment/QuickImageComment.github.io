@@ -1,0 +1,30 @@
+<ul>
+
+  {% assign categories = "MainMaskViews, MainMaskGrids, MainMaskCustom, ImageDetails" | split: ", " %}
+
+  {% for category in categories %}
+    {%- assign navigation_pages = site.pages
+    | where: 'category', category
+    | where: 'language', page.language
+    | where: 'published', true
+    | where: 'order', 1
+    | sort: 'order' %}
+    {%- for navigation_page in navigation_pages %}
+      <li{%- if navigation_page.title==page.title %} class="current" {%- endif %}>
+        <a href="{{ site.baseurl }}{{ navigation_page.url }}">{{ navigation_page.title }}</a>
+      </li>
+    {%- endfor %}
+  {%- endfor %}
+
+  {%- assign navigation_pages = site.pages
+    | where: 'category', "OtherMasks"
+    | where: 'language', page.language
+    | where: 'published', true
+    | sort: 'order' %}
+    {%- for navigation_page in navigation_pages %}
+      <li{%- if navigation_page.title==page.title %} class="current" {%- endif %}>
+        <a href="{{ site.baseurl }}{{ navigation_page.url }}">{{ navigation_page.title }}</a>
+      </li>
+    {%- endfor %}
+
+</ul>

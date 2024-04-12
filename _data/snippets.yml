@@ -1,0 +1,43 @@
+title:
+  en: QuickImageComment
+  de: QuickImageComment
+
+subtitle:
+  en: quick change of user comment and artists in digital images, display and change of meta data, ...
+  de: schnelles Ändern von Kommentar und Autor in Bildern, Anzeigen und Ändern von Metadaten, ...
+
+languages:
+  en:
+    value: English
+    slug: en
+  de:
+    value: Deutsch
+    slug: de
+
+back:
+  en: Back to the Top
+  de: Zurück zum Anfang
+
+top:
+  en: Top
+  de: Anfang
+
+content:
+  en: Content
+  de: Inhalt
+
+homepage:
+  en: en/overview.html
+  de: de/uebersicht.html
+  
+latestnews:
+  en: Latest news
+  de: Letzte Meldungen
+
+sitecreated:
+  en: Site created using
+  de: Website erstellt unter Verwendung von
+
+othermasks:
+  en: Other masks
+  de: Sonstige Masken  

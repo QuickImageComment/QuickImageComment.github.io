@@ -1,0 +1,41 @@
+{%- assign navigation_pages = site.pages
+    | where: 'category', page.category
+    | where: 'language', page.language
+    | where: 'published', true
+    | sort: 'order' %}
+
+{%- for navigation_page in navigation_pages %}
+    {% if navigation_page.name == page.name %}
+        {% assign idxthis = forloop.index0 %}
+    {% endif %}
+{%- endfor %}
+{% assign idxprev = idxthis | minus: 1 %}
+{% assign idxnext = idxthis | plus: 1 %}
+
+{% assign idxlast = navigation_pages.size | minus: 1 %}
+
+{% if idxlast > 0 %}
+
+    {%- if idxthis == 0 %}
+    <a style="color: grey">&NestedLessLess;</a>
+    <a style="color: grey">&LT</a>
+    {%- else %}
+        <a href="{{ site.baseurl }}{{ navigation_pages[0].url }}">&NestedLessLess;</a> </a>
+        <a href="{{ site.baseurl }}{{ navigation_pages[idxprev].url }}">&LT</a> </a>
+    {% endif %}
+
+    {%- for navigation_page in navigation_pages %}
+        <a{%- if navigation_page.order==page.order %} style="font-weight: bold; color: black;" {%- endif %} 
+        href="{{ site.baseurl }}{{ navigation_page.url }}">{{ forloop.index }}</a>
+    {%- endfor %}
+
+    {%- if idxthis == idxlast %}
+        <a style="color: grey">&GT</a>
+        <a style="color: grey">&NestedGreaterGreater;</a>
+    {%- else %}
+        <a href="{{ site.baseurl }}{{ navigation_pages[idxnext].url }}">&GT</a> </a>
+        <a href="{{ site.baseurl }}{{ navigation_pages[idxlast].url }}">&NestedGreaterGreater;</a> </a>
+    {% endif %}
+    <br><br>
+{% endif %}
+

@@ -1,0 +1,11 @@
+---
+layout: base
+---
+
+<nav>
+    <ul class="navigation">
+        {% include_relative {{ page.name | remove : '.html' }}_ToC.htm %}
+    </ul>
+</nav>
+
+{{ content }}

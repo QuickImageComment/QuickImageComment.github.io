@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+{%- assign snippets = site.data.snippets %}
+
+<nav class="navigation">
+
+    {% include navigation-screenshot.html %}
+
+</nav>
+
+{% if page.category == "OtherMasks" %}
+<h2>{{ snippets.othermasks[page.language] }}: {{ page.title }}</h2>
+{% else %}
+<h2>{{ page.title }}</h2>
+{% endif %}
+
+{% include screenshotimagelinks.html %}
+
+<screenshot>
+{{ content }}
+</screenshot>

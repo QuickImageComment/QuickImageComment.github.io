@@ -1,0 +1,43 @@
+# Site settings
+title: 'QuickImageComment'
+description: 'quick change of user comment and artists in digital images, display and change of meta data, ...'
+
+# baseurl: '/' # the subpath of your site, e.g. /blog
+# absoluteurl: 'https://ranbureand.github.io/multilingual-experiment'
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
+
+default_language: 'en'
+fallback_page: 'overview'
+
+timezone: Europe/Rome
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+
+# Markdown Processors
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 2..3
+
+plugins:
+  - jekyll-seo-tag
+
+# Defaults
+defaults:
+-
+  scope:
+    path: '_posts/en'
+    type: 'posts'
+  values:
+    permalink: 'en/news/:title'
+    language: en
+-
+  scope:
+    path: '_posts/de'
+    type: 'posts'
+  values:
+    permalink: 'de/nachrichten/:title'
+    language: de
