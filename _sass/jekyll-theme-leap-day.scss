@@ -308,27 +308,6 @@ navHead {
     overflow: hidden;
     margin-left: -30px;
 
-    li {
-      line-height: 14px;
-
-      &.tag-h1 {
-        font-size: 1.2em;
-
-        a {
-          font-weight: bold;
-          color: black;
-        }
-
-      }
-
-      &.tag-h2 {
-
-        +.tag-h1 {
-          margin-top: 10px;
-        }
-      }
-    }
-
     a {
       color: black;
 
@@ -357,28 +336,6 @@ nav {
     line-height: 20px;
     margin-left: -30px;
 
-    li {
-      padding: 5px 0px;
-      line-height: 14px;
-
-      &.tag-h1 {
-        font-size: 1.2em;
-
-        a {
-          font-weight: bold;
-          color: black;
-        }
-
-      }
-
-      &.tag-h2 {
-
-        +.tag-h1 {
-          margin-top: 10px;
-        }
-      }
-    }
-
     a {
       color: black;
 
@@ -404,8 +361,8 @@ nav {
     div.MsoToc1 {
       margin-left: 0px;
       text-align: left;
-      padding-left: 60px;
-      text-indent: -60px;
+      padding-left: 3em;
+      text-indent: -3em;
       padding-right: 15px;
     }
 
@@ -414,8 +371,8 @@ nav {
     div.MsoToc2 {
       margin-left: 0px;
       text-align: left;
-      padding-left: 60px;
-      text-indent: -60px;
+      padding-left: 4em;
+      text-indent: -4em;
       padding-right: 15px;
     }
   }
