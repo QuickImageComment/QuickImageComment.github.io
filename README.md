@@ -15,6 +15,7 @@ _sass | copied from leap-day and adjusted
 assets | copied from leap-day
 de | german content
 en | english content
+phocadownload | Contains ChangeInfo.xml, which is read by the program to check for new version. Name is coming from previous hosting with Joomla and PhocaDownload plugin.
 
 # Files in root folder
 
