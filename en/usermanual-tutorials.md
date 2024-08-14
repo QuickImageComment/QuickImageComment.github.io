@@ -21,6 +21,6 @@ or can be downloaded as PDF-file:
 
 {% assign version = 4.59 %}
 {% assign release =  "v4.59" %}
-[Benutzeranleitung Version {{ version }}](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_manual-{{ version }}.pdf)
+[Benutzeranleitung Version {{ version }}](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_Manual-{{ version }}.pdf)
 
 Tutorials are available on [YouTube](https://www.youtube.com/channel/UCrTOh1TBYB2e_4rANDnN6BA).
