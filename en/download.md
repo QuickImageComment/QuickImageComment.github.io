@@ -27,7 +27,7 @@ Source code is available on GitHub:
 [https://github.com/QuickImageComment/QuickImageComment](https://github.com/QuickImageComment/QuickImageComment)
 
 {% assign version = 4.59 %}
-{% assign release =  "Version-4.57-with-exiv2Cdecl-0.28.1.0" %}
+{% assign release =  "v4.59" %}
 ### Version {{ version }}
 [Program 64-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-64Bit-{{ version }}.zip)<br>
@@ -38,7 +38,7 @@ QIC-Net4WinXP-{{ version }}.zip)<br>
 [User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_Manual-{{ version }}.pdf)
 
 {% assign version = 4.58 %}
-{% assign release =  "Version-4.57-with-exiv2Cdecl-0.28.1.0" %}
+{% assign release =  "v4.58" %}
 ### Version {{ version }}
 [Program 64-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-64Bit-{{ version }}.zip)<br>
