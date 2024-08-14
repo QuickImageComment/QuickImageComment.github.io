@@ -13,6 +13,17 @@ order: 6
 
 # Change History
 
+## Version 4.59 released on 2024-08-14
+
+Enhancements and improvements:
+
+* Improved error detection
+* Only for the .Net 4.6.1 variants: New version 0.28.3 of the exiv2 library integrated: minor bugs fixed.
+
+The following error has been fixed:
+
+* The program crashed if the size of the preview images was configured larger than 256x256.
+
 ## Version 4.58 released on 2024-03-17
 
 Enhancements and improvements:
