@@ -13,6 +13,20 @@ order: 6
 
 # Change History
 
+## Version 4.60 released on 2024-09-26
+
+Enhancements and improvements:
+
+* Images can be copied or moved to another folder.
+* Mask "Configuration Edit-external": Program path and window title can be taken from open programs, i.e. this data does not have to be entered manually.
+* Before saving, it is checked, whether the file has been changed outside the program since it was read.
+* If an image is changed outside the program, the displayed image is now updated even if there are unsaved changes. The changes made are not overwritten, even if the corresponding fields have been changed outside the program.
+* Mask "User defined buttons": icons from a file can assigned. If the menu item is an entry from "Edit-External" with "Program" configuration, the icon assigned to the program can be assigned.
+
+The following error has been fixed:
+
+* During input in the tabs for properties: The escape key did not restore the value that was read in, but the value that the cell had when it was last exited, i.e. possibly a previous entry.
+
 ## Version 4.59 released on 2024-08-14
 
 Enhancements and improvements:
