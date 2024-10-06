@@ -13,6 +13,14 @@ order: 6
 
 # Änderungshistorie
 
+## Version 4.61 veröffentlicht am 06.10.2024
+
+Folgende Fehler wurden behoben:
+
+* Das Programm stürzte ab, wenn versucht wurde, einen leeren Wert in den Reitern für Eigenschaften zu speichern. 
+* Das Programm konnte beim Start mit "Invoke oder BeginInvoke kann nicht auf einem Steuerelement aufgerufen werden, bis die Fensterverknüpfung erstellt ist." abstürzen. 
+* In seltenen Fällen konnte das Programm beim Wechsel der Ansicht der Dateiliste abstürzen.
+ 
 ## Version 4.60 veröffentlicht am 26.09.2024
 
 Erweiterungen und Verbesserungen:

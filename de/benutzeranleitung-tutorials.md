@@ -22,4 +22,6 @@ oder kann als PDF-Datei heruntegeladen werden:
 {% assign version = "4.60" %}
 [Benutzeranleitung Version {{ version }}](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/QIC_Benutzeranleitung-{{ version }}.pdf)
 
+Hinweis: In Version 4.61 sind gegenüber 4.60 nur Fehler behoben worden und es ergaben sich keine Änderungen in der Benutzeranleitung.
+
 Tutorials sind auf [YouTube](https://www.youtube.com/channel/UCrTOh1TBYB2e_4rANDnN6BA) verfügbar.

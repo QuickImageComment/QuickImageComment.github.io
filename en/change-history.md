@@ -13,6 +13,14 @@ order: 6
 
 # Change History
 
+## Version 4.61 released on 2024-10-06
+
+The following errors have been fixed:
+
+* The program crashed when trying to save an empty value in the tabs for properties.
+* The program could crash during start with "Invoke or BeginInvoke cannot be called on a control until the window link is created."
+* In seldom cases the program could crash when changing the view of file list.
+
 ## Version 4.60 released on 2024-09-26
 
 Enhancements and improvements:
