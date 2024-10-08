@@ -73,7 +73,7 @@
 		<Program_Release_Status>New Release</Program_Release_Status>
 		<Program_Install_Support>No Install Support</Program_Install_Support>
 		<Program_Target_Platform>Windows</Program_Target_Platform>
-		<Program_OS_Support>Win7 x32,Win7 x64,Windows 8</Program_OS_Support>
+		<Program_OS_Support>Win7 x32,Win7 x64,WinVista,WinXP,Windows 8,Windows 10,Windows 11</Program_OS_Support>
 		<Program_Language>German,English</Program_Language>
 		<Program_Change_Info>The following errors have been fixed:
 The program crashed when trying to save an empty value in the tabs for properties.
@@ -109,7 +109,7 @@ The program could crash during start with &quot;Invoke or BeginInvoke cannot be 
 			<Application_Order_URL>https://www.quickimagecomment.de</Application_Order_URL>
 			<Application_Screenshot_URL>https://raw.githubusercontent.com/QuickImageComment/QuickImageComment/main/UserManual/images/English-prg/QuickImageComment.png</Application_Screenshot_URL>
 			<Application_Icon_URL>https://raw.githubusercontent.com/QuickImageComment/QuickImageComment/main/QuickImageComment/Resources/QuickImageComment.gif</Application_Icon_URL>
-			<Application_XML_File_URL>http://www.quickimagecomment.de/phocadownload/QuickImageComment_pad.xml</Application_XML_File_URL>
+			<Application_XML_File_URL>https://quickimagecomment.de/phocadownload/QuickImageComment_pad_file.xml</Application_XML_File_URL>
 			<Video_Link_1_URL/>
 			<Video_Link_2_URL/>
 		</Application_URLs>
