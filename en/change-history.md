@@ -13,6 +13,13 @@ order: 6
 
 # Change History
 
+## Version 4.62 released on 2024-10-15
+
+The following errors have been fixed:
+
+* If the program was started with map view and WebView2 was activated, it crashed. 
+* If map view with WebView2 was active, a message occured, that the recording location had been changed when selecting another image, although this was not the case.
+
 ## Version 4.61 released on 2024-10-06
 
 The following errors have been fixed:

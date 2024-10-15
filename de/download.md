@@ -26,6 +26,16 @@ Das Benutzerhandbuch kann als PDF-Datei heruntergeladen werden. Der Inhalt entsp
 Der Quellcode ist auf GitHub verfügbar:
 [https://github.com/QuickImageComment/QuickImageComment](https://github.com/QuickImageComment/QuickImageComment)
 
+{% assign version = "4.62" %}
+### Version {{ version }}
+[Program 64-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
+QIC-64Bit-{{ version }}.zip)<br>
+[Program 32-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
+QIC-32Bit-{{ version }}.zip)<br>
+[Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
+QIC-Net4WinXP-{{ version }}.zip)<br>
+Gegenüber 4.60 sind nur Fehler behoben worden und es ergaben sich keine Änderungen in der Benutzeranleitung. Daher bitte weiter die Benutzeranleitung von 4.60 verwenden.
+
 {% assign version = "4.61" %}
 ### Version {{ version }}
 [Program 64-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
@@ -70,17 +80,6 @@ QIC-Net4WinXP-{{ version }}.zip)<br>
 
 {% assign version = 4.57 %}
 {% assign release =  "Version-4.57-with-exiv2Cdecl-0.28.1.0" %}
-### Version {{ version }}
-[Program 64-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-QIC-64Bit-{{ version }}.zip)<br>
-[Program 32-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-QIC-32Bit-{{ version }}.zip)<br>
-[Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-QIC-Net4WinXP-{{ version }}.zip)<br>
-[Benutzeranleitung](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_Benutzeranleitung-{{ version }}.pdf)
-
-{% assign version = 4.56 %}
-{% assign release =  "Version-4.56-with-exiv2Cdecl-0.0.28.0.4" %}
 ### Version {{ version }}
 [Program 64-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-64Bit-{{ version }}.zip)<br>

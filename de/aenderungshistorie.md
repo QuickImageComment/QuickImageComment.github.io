@@ -13,6 +13,13 @@ order: 6
 
 # Änderungshistorie
 
+## Version 4.62 veröffentlicht am 15.10.2024
+
+Folgende Fehler wurden behoben:
+
+* Wenn das Programm mit Kartenansicht gestartet wurde und WebView2 aktiviert war, stürzte es ab.
+* Wenn Kartenansicht mit WebView2 aktiv war, wurde beim Bildwechsel angezeigt, dass der Aufnahmeort geändert wurde, obwohl das nicht der Fall war.
+
 ## Version 4.61 veröffentlicht am 06.10.2024
 
 Folgende Fehler wurden behoben:
