@@ -20,7 +20,7 @@ QuickImageComment zeigt Exif-, IPTC- und XMP-Eigenschaften von Digitalbildern (z
 
 Eine weitere Bearbeitung der Bilder (z.B. Anpassen von Kontrast und Helligkeit) ist nicht Sinn und Zweck dieses Programms.
 
-Für das Auslesen und Ändern der Exif-, IPTC- und XMP-Eigenschaften wird die Bibliothek exiv2 verwendet. Auf [www.exiv2.org](www.exiv2.org) findet man neben der Beschreibung dieser Bibliothek auch umfangreiche Informationen und weiterführende Links zu Exif, IPTC und XMP. Die von exiv2 unterstützten Formate sind hier dokumentiert:  
+Für das Auslesen und Ändern der Exif-, IPTC- und XMP-Eigenschaften wird die Bibliothek exiv2 verwendet. Auf [www.exiv2.org](https://www.exiv2.org) findet man neben der Beschreibung dieser Bibliothek auch umfangreiche Informationen und weiterführende Links zu Exif, IPTC und XMP. Die von exiv2 unterstützten Formate sind hier dokumentiert:  
 [https://github.com/Exiv2/exiv2/blob/main/exiv2.md#file_types](https://github.com/Exiv2/exiv2/blob/main/exiv2.md#file_types)
 
 Für die Anzeige von RAW-Bildern ist die LibRaw-Bibliothek integriert. Wenn der Codec des Kameraherstellers oder die Microsoft Raw Image Extension (die verschiedene RAW-Formate unterstützt) installiert sind, werden sie verwendet und die Anzeige ist dann in der Regel schneller. Man kann sowohl einen spezifischen Codec als auch die Microsoft-Erweiterung installieren. Der spezifische Codec wird dann für die entsprechenden Bilder verwendet. Für alle anderen wird zunächst die Microsoft Extension ausprobiert und als letzte Option die integrierte LibRaw-Bibliothek. Für die Anzeige der Metadaten wird kein Codec benötigt.
