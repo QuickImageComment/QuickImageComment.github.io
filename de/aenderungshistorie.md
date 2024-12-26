@@ -13,6 +13,19 @@ order: 6
 
 # Änderungshistorie
 
+## Version 4.63 veröffentlicht am 26.12.2024
+
+Erweiterungen und Verbesserungen:
+
+* Anzeige von Aufnahmerichtung und -winkel in Karte.
+* Neue Version 0.21.3 der Bibliothek LibRaw integriert, die 4-Komponenten JPEG-komprimierte DNG-Dateien unterstützt.
+* Im Parameter FindDataTableFileName (Dateiname zum Speichern der für die Suche gelesenen Daten) kann auch ein absoluter Pfad angegeben werden. Bisher konnte die Datei nur im Speicherort für Benutzer-Einstellungen abgelegt werden.
+* In Ansicht "Liste" bzw. Miniaturansicht wird mit Cursor unten/oben bzw. rechts/links über die Grenze der Zeile bzw. Spalte weiternavigiert.
+
+Folgende Fehler wurden behoben:
+
+* Das Anlegen von benutzerdefinierten Schaltflächen war abhängig von den Konfigurationseinstellungen häufig nicht möglich.
+
 ## Version 4.62 veröffentlicht am 15.10.2024
 
 Folgende Fehler wurden behoben:

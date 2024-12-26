@@ -19,9 +19,7 @@ The user manual is included as Microsoft Help File in the ZIP-file with the prog
 
 or can be downloaded as PDF-file:
 
-{% assign version = "4.60" %}
+{% assign version = "4.63" %}
 [User Manual Version {{ version }}](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/QIC_User_Manual-{{ version }}.pdf)
-
-Note: In version 4.62, only bugs have been fixed compared to 4.60 and there have been no changes to the user manual.
 
 Tutorials are available on [YouTube](https://www.youtube.com/channel/UCrTOh1TBYB2e_4rANDnN6BA).

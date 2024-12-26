@@ -13,6 +13,19 @@ order: 6
 
 # Change History
 
+## Version 4.63 released on 2024-12-26
+
+Enhancements and improvements:
+
+* Display of direction and angle of view in map.
+* New version 0.21.3 of library LibRaw integrated, which supports for 4-component JPEG-compressed DNG files.
+* An absolute path can also be specified in the FindDataTableFileName parameter (file name for saving the data read for the search). Previously, the file could only be saved in the storage location for user settings.
+* In the list resp. thumbnail view, the cursor down/up resp. right/left is used to navigate across the border of the row or column.
+
+The following errors have been fixed:
+
+* Creating user-defined buttons was often not possible depending on the configuration settings.
+
 ## Version 4.62 released on 2024-10-15
 
 The following errors have been fixed:
