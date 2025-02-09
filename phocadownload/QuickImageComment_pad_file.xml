@@ -61,10 +61,10 @@
 	<Program_Info>
 		<AppID>app-07008b201973</AppID>
 		<Program_Name>QuickImageComment</Program_Name>
-		<Program_Version>4.63</Program_Version>
-		<Program_Release_Month>12</Program_Release_Month>
-		<Program_Release_Day>26</Program_Release_Day>
-		<Program_Release_Year>2024</Program_Release_Year>
+		<Program_Version>4.64</Program_Version>
+		<Program_Release_Month>02</Program_Release_Month>
+		<Program_Release_Day>09</Program_Release_Day>
+		<Program_Release_Year>2025</Program_Release_Year>
 		<Program_Cost_Dollars>0.00</Program_Cost_Dollars>
 		<Program_Type>Freeware</Program_Type>
 		<Program_Category_Class>Graphic Apps::Viewers</Program_Category_Class>
@@ -82,9 +82,9 @@ New version 0.21.3 of library LibRaw integrated, which supports for 4-component 
 		<Limitations>No limitations</Limitations>
 		<Awards/>
 		<File_Info>
-			<File_Size_Bytes>17398125</File_Size_Bytes>
-			<File_Size_K>16990</File_Size_K>
-			<File_Size_MB>16.59</File_Size_MB>
+			<File_Size_Bytes>14940875</File_Size_Bytes>
+			<File_Size_K>14590</File_Size_K>
+			<File_Size_MB>14.25</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
 			<Has_Expire_Info>N</Has_Expire_Info>
@@ -114,9 +114,9 @@ New version 0.21.3 of library LibRaw integrated, which supports for 4-component 
 			<Video_Link_2_URL/>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v4.62/QIC-64Bit-4.62.zip</Primary_Download_URL>
-			<Secondary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v4.62/QIC-32Bit-4.62.zip</Secondary_Download_URL>
-			<Additional_Download_URL_1>http://github.com/QuickImageComment/QuickImageComment/releases/download/v4.62/QIC-Net4WinXP-4.62.zip</Additional_Download_URL_1>
+			<Primary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v4.64/QIC-64Bit-4.64.zip</Primary_Download_URL>
+			<Secondary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v4.64/QIC-32Bit-4.64.zip</Secondary_Download_URL>
+			<Additional_Download_URL_1>http://github.com/QuickImageComment/QuickImageComment/releases/download/v4.64/QIC-Net4WinXP-4.64.zip</Additional_Download_URL_1>
 			<Additional_Download_URL_2/>
 		</Download_URLs>
 	</Web_Info>
@@ -310,11 +310,11 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<NewsFeed_Keywords/>
 	</NewsFeed>
 	<Press_Release>
-		<Press_Release>Enhancements and improvements: Display of direction and angle of view in map. New version 0.21.3 of library LibRaw integrated, which supports for 4-component JPEG-compressed DNG files. An absolute path can also be specified in the FindDataTableFileName parameter (file name for saving the data read for the search). Previously, the file could only be saved in the storage location for user settings. In the list resp. thumbnail view, the cursor down/up resp. right/left is used to navigate across the border of the row or column. The following errors have been fixed: Creating user-defined buttons was often not possible depending on the configuration settings.</Press_Release>
+		<Press_Release>New: Language file for French. Thanks to Régis for creating the translation. Note at this point: New languages can generally be added without program changes if a corresponding language file is created. Support for this is very welcome. Further information can be found at www.quickimagecomment.de. The transmission of error reports and elementary anonymous usage data with the help of Microsoft AppCenter has been removed because AppCenter will be discontinued by Microsoft on March 31, 2025.</Press_Release>
 		<Keywords>EXIF, IPTC, XMP, JPG, TIFF, RAW, image, rename, meta data, read, show, display, change, edit, delete, remove, recording date, recording time, free software, freeware, GNU General Public License GPL</Keywords>
-		<Headline>New Version 4.63 of QuickImageComment</Headline>
-		<Summary>The new version 4.63 of QuickImageComment is now published on https://www.quickimagecomment.de.</Summary>
-		<Press_Release_Plain>Enhancements and improvements: Display of direction and angle of view in map. New version 0.21.3 of library LibRaw integrated, which supports for 4-component JPEG-compressed DNG files. An absolute path can also be specified in the FindDataTableFileName parameter (file name for saving the data read for the search). Previously, the file could only be saved in the storage location for user settings. In the list resp. thumbnail view, the cursor down/up resp. right/left is used to navigate across the border of the row or column. The following errors have been fixed: Creating user-defined buttons was often not possible depending on the configuration settings.</Press_Release_Plain>
+		<Headline>New Version 4.64 of QuickImageComment</Headline>
+		<Summary>The new version 4.64 of QuickImageComment is now published on https://www.quickimagecomment.de.</Summary>
+		<Press_Release_Plain>New: Language file for French. Thanks to Régis for creating the translation. Note at this point: New languages can generally be added without program changes if a corresponding language file is created. Support for this is very welcome. Further information can be found at www.quickimagecomment.de. The transmission of error reports and elementary anonymous usage data with the help of Microsoft AppCenter has been removed because AppCenter will be discontinued by Microsoft on March 31, 2025.</Press_Release_Plain>
 		<Related_URL>https://www.quickimagecomment.de</Related_URL>
 	</Press_Release>
 	<Site>

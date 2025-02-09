@@ -13,6 +13,13 @@ order: 6
 
 # Change History
 
+## Version 4.64 released on 2025-02-09
+
+New: Language file for French. Thanks to Régis for creating the translation.
+Note at this point: New languages can generally be added without program changes if a corresponding language file is created. Support for this is very welcome. Further information can be found at www.quickimagecomment.de.
+
+The transmission of error reports and elementary anonymous usage data with the help of Microsoft AppCenter has been removed because AppCenter will be discontinued by Microsoft on March 31, 2025.
+
 ## Version 4.63 released on 2024-12-26
 
 Enhancements and improvements:

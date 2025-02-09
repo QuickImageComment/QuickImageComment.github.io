@@ -25,6 +25,8 @@ Für das Auslesen und Ändern der Exif-, IPTC- und XMP-Eigenschaften wird die Bi
 
 Für die Anzeige von RAW-Bildern ist die LibRaw-Bibliothek integriert. Wenn der Codec des Kameraherstellers oder die Microsoft Raw Image Extension (die verschiedene RAW-Formate unterstützt) installiert sind, werden sie verwendet und die Anzeige ist dann in der Regel schneller. Man kann sowohl einen spezifischen Codec als auch die Microsoft-Erweiterung installieren. Der spezifische Codec wird dann für die entsprechenden Bilder verwendet. Für alle anderen wird zunächst die Microsoft Extension ausprobiert und als letzte Option die integrierte LibRaw-Bibliothek. Für die Anzeige der Metadaten wird kein Codec benötigt.
 
-Das Programm läuft unter Microsoft Windows 7, 8, 10 und 11 und ist als 32-Bit und 64-Bit Variante verfügbar. Als Sprache kann Deutsch oder Englisch gewählt werden. Es gibt auch eine Variante mit leicht reduzierter Funktionalität, die unter Windows XP mit .Net 4.0 Framework läuft.
+Das Programm läuft unter Microsoft Windows 7, 8, 10 und 11 und ist als 32-Bit und 64-Bit Variante verfügbar. Als Sprache kann Deutsch oder Englisch gewählt werden. Weitere Sprachen können leicht ergänzt werden, wenn eine entsprechende Sprachdatei erstellt wird. Weitere Hinweise dazu unter: [Unterstützung für weitere Sprachen](unterstuetzung-fuer-weitere-sprachen.html)
+
+Es gibt auch eine Variante mit leicht reduzierter Funktionalität, die unter Windows XP mit .Net 4.0 Framework läuft.
 
 QuickImageComment ist freie Software. Sie können es unter den Bedingungen der GNU General Public License (wie von der Free Software Foundation veröffentlicht) verwenden.

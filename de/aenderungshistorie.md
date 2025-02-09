@@ -13,6 +13,13 @@ order: 6
 
 # Änderungshistorie
 
+## Version 4.64 veröffentlicht am 09.02.2025
+
+Neu: Sprachdatei für Französisch. Dank an Régis für Erstellung der Übersetzung.
+Hinweis an dieser Stelle: Neue Sprachen können grundsätzlich ohne Programmänderungen ergänzt werden, wenn eine entsprechende Sprachdatei erzeugt wird. Unterstützung dafür ist sehr willkommen. Weitere Hinweise unter www.quickimagecomment.de.
+
+Die Übermittlung von Fehlerberichten und elementarer anonymer Nutzungsdaten mit Hilfe des Microsoft AppCenters wurde entfernt, weil AppCenter am 31. März 2025 von Microsoft eingestellt wird.
+
 ## Version 4.63 veröffentlicht am 26.12.2024
 
 Erweiterungen und Verbesserungen:
