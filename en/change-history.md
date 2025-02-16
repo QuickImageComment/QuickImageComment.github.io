@@ -13,6 +13,17 @@ order: 6
 
 # Change History
 
+## Version 4.65 released on 2025-02-16
+
+Enhancements and improvements:
+
+* Only for the .Net 4.6.1 variants: New version 0.28.4 of the exiv2 library integrated: more lenses detected and minor bugs fixed.
+
+The following errorr have been fixed:
+
+* The search for a location (e.g. Paris) in the map view no longer worked because the syntax for the query was changed.
+* Providing a directory in command line always caused error message "directory/file not found".
+
 ## Version 4.64 released on 2025-02-09
 
 New: Language file for French. Thanks to Régis for creating the translation.

@@ -19,7 +19,7 @@ Das Benutzerhandbuch ist als Microsoft-Hilfedatei in der ZIP-Datei mit dem Progr
 
 oder kann als PDF-Datei heruntegeladen werden:
 
-{% assign version = "4.64" %}
+{% assign version = "4.65" %}
 [Benutzeranleitung Version {{ version }}](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/QIC_Benutzeranleitung-{{ version }}.pdf)
 
 Tutorials sind auf [YouTube](https://www.youtube.com/channel/UCrTOh1TBYB2e_4rANDnN6BA) verfügbar.

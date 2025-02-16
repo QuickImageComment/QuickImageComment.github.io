@@ -13,6 +13,17 @@ order: 6
 
 # Änderungshistorie
 
+## Version 4.65 veröffentlicht am 16.02.2025
+
+Erweiterungen und Verbesserungen:
+
+* Nur für die .Net 4.6.1-Varianten: Neue Version 0.28.4 der Bibliothek exiv2 integriert: Erkennung von mehr Objektiven, kleinere Fehler behoben.
+
+Folgende Fehler wurden behoben:
+
+* Die Suche nach einem Ort (z.B. Paris) in der Kartenansicht funktionierte nicht mehr, weil die Syntax für die Abfrage geändert wurde.
+* Die Angabe eines Verzeichnisses in der Kommandozeile führte immer zur Fehlermeldung "Verzeichnis/Datei nicht gefunden".
+
 ## Version 4.64 veröffentlicht am 09.02.2025
 
 Neu: Sprachdatei für Französisch. Dank an Régis für Erstellung der Übersetzung.
