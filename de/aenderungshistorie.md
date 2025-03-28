@@ -13,6 +13,21 @@ order: 6
 
 # Änderungshistorie
 
+## Version 4.66 veröffentlicht am 28.03.2025
+
+Erweiterungen und Verbesserungen:
+
+* Trennlinie erlaubt Anpassung der Breite der Auswahlliste für Karten-Quelle und Ankreuzfeld darunter. Dadurch kann mehr Platz für die Felder links geschaffen werden, die öfter verwendet werden.
+* Neuer Menüeintrag unter "Bild" zum unwiderruflichen Löschen.
+* Mit gedrückter Umschalttaste wird mit der Löschtaste unwiderruflich gelöscht.
+* In der Maske "Einstellungen" kann konfiguriert werden, dass mit der Löschtaste auch ohne Umschalttaste unwiderruflich gelöscht wird.
+* In den Reitern Übersicht/Exif/IPTC/XMP/Sonstige ist das Kontextmenü um "Kopieren" erweitert.
+
+Folgende Fehler wurden behoben:
+
+* Im Reiter "Sonstige" konnten Änderungen für "Image (Bild).Kommentar" nicht gespeichert werden.
+* Der Längengrad von Orten auf oder westlich von 100°W wurde nicht im Koordinatenfeld unter der Karte angezeigt.
+
 ## Version 4.65 veröffentlicht am 16.02.2025
 
 Erweiterungen und Verbesserungen:

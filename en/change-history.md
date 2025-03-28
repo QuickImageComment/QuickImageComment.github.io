@@ -13,6 +13,21 @@ order: 6
 
 # Change History
 
+## Version 4.66 released on 2025-03-28
+
+Enhancements and improvements:
+
+* Deviding line allows adjustment of the width of the selection list for map source and checkbox below. This allows more space to be created for the fields on the left that are used more frequently.
+* New menu item under "Image" for deletion permanently.
+* When holding "Shift", pressing the delete-button will delete permanantly.
+* In mask "Settings" it can be configured, that the delete button to delete permanently even without the shift key.
+* In the tabs Overview/Exif/IPTC/XMP/Other, the context menu has been expanded to include "Copy".
+
+The following errors have been fixed:
+
+* In tab "Other" changes for "Image.Comment" could not be saved.
+* The longitude of locations at or west of 100°W was not shown in coordinates field below the map.
+
 ## Version 4.65 released on 2025-02-16
 
 Enhancements and improvements:
