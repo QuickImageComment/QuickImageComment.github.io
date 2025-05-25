@@ -8,7 +8,7 @@ language: de
 language_reference: disclaimer
 
 published: true
-order: 10
+order: 12
 ---
 
 # Disclaimer - Rechtliche Hinweise

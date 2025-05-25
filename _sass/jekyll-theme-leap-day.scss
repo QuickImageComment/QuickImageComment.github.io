@@ -454,3 +454,12 @@ screen and (max-height: 680px) {
     display: none;
   }
 }
+
+.tablestylegrey {
+        border-collapse: collapse;
+
+   > table, td, th {
+        border: 1px solid grey;
+        padding: 5px;
+        }
+}

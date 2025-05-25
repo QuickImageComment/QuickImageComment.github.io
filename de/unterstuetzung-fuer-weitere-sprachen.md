@@ -8,7 +8,7 @@ language: de
 language_reference: support-for-additional-languages
 
 published: true
-order: 7
+order: 8
 ---
 
 # Unterstützung für weitere Sprachen

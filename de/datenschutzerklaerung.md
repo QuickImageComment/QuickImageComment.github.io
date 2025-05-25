@@ -8,7 +8,7 @@ language: de
 language_reference: data-privacy-statement
 
 published: true
-order: 11
+order: 13
 ---
 
 # Datenschutzerklärung

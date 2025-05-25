@@ -8,7 +8,7 @@ language: de
 language_reference: change-history
 
 published: true
-order: 6
+order: 7
 ---
 
 # Änderungshistorie
