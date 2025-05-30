@@ -111,7 +111,7 @@ strong {
 }
 
 section img {
-  object-fit:contain;
+  object-fit: contain;
 }
 
 // applies in layout screenshot
@@ -214,6 +214,15 @@ small {
   font-size: 12px;
 }
 
+// used to modify navigation, but adding class there did not work
+.bullet {
+  li {
+    list-style-type: circle;
+    text-align: left;
+    margin-left: 10px;
+  }
+}
+
 // used to override settings contained in document to display
 .navigation {
   li {
@@ -231,7 +240,7 @@ small {
     text-decoration: none;
 
     &:hover {
-      color: grey;
+      background-color: white;
     }
   }
 
@@ -241,7 +250,7 @@ small {
     text-decoration: none;
 
     &:hover {
-      color: grey;
+      background-color: white;
     }
   }
 }
@@ -458,7 +467,9 @@ screen and (max-height: 680px) {
 .tablestylegrey {
         border-collapse: collapse;
 
-   > table, td, th {
+  >table,
+  td,
+  th {
         border: 1px solid grey;
         padding: 5px;
         }
