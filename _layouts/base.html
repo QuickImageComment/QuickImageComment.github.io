@@ -27,7 +27,7 @@
 
         {% include language-switch.html %}
 
-        {% if page.layout == "document" or page.layout == "post" or page.layout == "screenshot" %}
+        {% if page.layout == "document" or page.layout == "post" or page.layout == "screenshot" or page.layout == "pageOwnNav" %}
         <li>
           <a href="{{ site.baseurl }}/{{ snippets.homepage[page.language] }}">{{
             snippets.back[page.language]

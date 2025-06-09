@@ -1,7 +1,7 @@
        <li>
 		  {%- for language in snippets.languages %}
 
-							{%- if page.layout == 'page' or page.layout == 'document' or page.layout == 'screenshot' %}
+							{%- if page.layout == 'page' or page.layout == 'pageOwnNav' or page.layout == 'document' or page.layout == 'screenshot' %}
 								{%- assign navigation_pages = site.pages
 									| where: 'language_reference', page.language_reference
 									| where: 'language', language[1].slug %}
