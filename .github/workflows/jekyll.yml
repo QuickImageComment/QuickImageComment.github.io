@@ -45,6 +45,7 @@ jobs:
       - name: Deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT: ${{ secrets.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  }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -54,6 +55,6 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.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  }}
+          PAT: ${{ secrets.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  }}
           branch: main
           force: true
