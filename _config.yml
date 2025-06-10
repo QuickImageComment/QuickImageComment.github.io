@@ -24,7 +24,7 @@ kramdown:
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-toc
+  #- jekyll-toc
 
 # Defaults
 defaults:
@@ -44,5 +44,5 @@ defaults:
     language: de
 
 # TOC Settings
-toc:
-  min_level: 2
+#toc:
+#  min_level: 2
