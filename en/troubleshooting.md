@@ -1,5 +1,5 @@
 ---
-layout: pageOwnNav
+layout: page
 
 title: Trouble shooting
 description: Trouble shooting.
@@ -11,6 +11,8 @@ published: true
 order: 3
 toc: true
 ---
+
+## Trouble shooting
 
 This page contains problems/questions and their solutions/answers. New entries will be added at the top.
 

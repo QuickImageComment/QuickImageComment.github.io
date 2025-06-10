@@ -1,5 +1,5 @@
 ---
-layout: pageOwnNav
+layout: page
 
 title: Problembehandlung
 description: Problembehandlung.
@@ -11,6 +11,8 @@ published: true
 order: 3
 toc: true
 ---
+
+## Problembehandlung
 
 Diese Seite enthält Probleme/Fragen und deren Lösungen/Antworten. Neue Einträge werden jeweils oben ergänzt.
 
