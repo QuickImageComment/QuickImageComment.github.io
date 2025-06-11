@@ -17,6 +17,7 @@ QuickImageComment zeigt Exif-, IPTC- und XMP-Eigenschaften von Digitalbildern (z
 - Alle Bildeigenschaften von ausgewählten Bildern/Videos können in Textdateien exportiert werden (eine Datei je Bild). 
 - Anzeige von Bilddetails mit graphischer und numerischer Darstellung von Helligkeit und RGB-Werten.
 - Anzeige des Aufnahmeortes auf einer Karte anhand der GPS-Koordinaten; Änderung der GPS-Koordinaten durch Wahl der Position auf der Karte.
+- Slideshow mit konfigurierbaren Untertiteln, zusammengesetzt aus Exif-, IPTC- und XMP-Eigenschaften.
 
 Eine weitere Bearbeitung der Bilder (z.B. Anpassen von Kontrast und Helligkeit) ist nicht Sinn und Zweck dieses Programms.
 

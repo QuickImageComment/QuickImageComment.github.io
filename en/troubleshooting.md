@@ -1,8 +1,8 @@
 ---
 layout: pageOwnNav
 
-title: Trouble shooting
-description: Trouble shooting.
+title: Troubleshooting
+description: Troubleshooting
 
 language: en
 language_reference: troubleshooting

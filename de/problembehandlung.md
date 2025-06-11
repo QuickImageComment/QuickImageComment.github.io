@@ -2,7 +2,7 @@
 layout: pageOwnNav
 
 title: Problembehandlung
-description: Problembehandlung.
+description: Problembehandlung
 
 language: de
 language_reference: troubleshooting
