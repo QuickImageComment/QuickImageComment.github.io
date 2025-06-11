@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pageOwnNav
 
 title: Problembehandlung
 description: Problembehandlung.
@@ -12,9 +12,9 @@ order: 3
 toc: true
 ---
 
-## Problembehandlung
+Diese Seite enthält Probleme/Fragen und deren Lösungen/Antworten. Die Seite ist als Ergänzung zum Benutzerhandbuch bzw. der mit dem Programm gelieferten Hilfedatei gedacht. Hier werden konkrete Probleme und Fragen behandelt, deren Lösung bzw. Antwort nicht oder eher mühsam anhand des Benutzerhandbuches zu finden ist. Vor allem können neue Probleme oder Fragen, die von allgemeinem Interesse sind, hier kurfristig ergänzt werden. 
 
-Diese Seite enthält Probleme/Fragen und deren Lösungen/Antworten. Neue Einträge werden jeweils oben ergänzt.
+Neue Einträge werden jeweils oben ergänzt.
 
 ### Bedienelemente sind teilweise verdeckt oder Inhalt ist abgeschnitten
 Die Größe der meisten Masken kann angepasst werden. In einigen Fällen kann auch die Größe einzelner Bereiche, insbesondere in der Hauptmaske, angepasst werden. Normalerweise kann eine Maske oder ein Bereich nicht so klein gemacht werden, dass nicht mehr alle Bedienelemente Platz finden. In besonderen Fällen ist es aber möglich, einen Bereich so klein zu machen, dass sich Bedienelemente überlappen oder Inhalte abgeschnitten sind, damit in einem anderen, wichtigeren Bereich mehr Platz zur Verfügung steht.

@@ -15,6 +15,9 @@ encoding: utf-8
 # Build settings
 markdown: kramdown
 
+# output directory set to allow GitHub deploy from a branch
+destination: docs
+
 # Markdown Processors
 kramdown:
   auto_ids: true
@@ -41,3 +44,7 @@ defaults:
   values:
     permalink: 'de/nachrichten/:title'
     language: de
+
+# TOC Settings
+toc:
+  min_level: 2

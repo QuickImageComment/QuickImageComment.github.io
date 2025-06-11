@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pageOwnNav
 
 title: Trouble shooting
 description: Trouble shooting.
@@ -12,9 +12,9 @@ order: 3
 toc: true
 ---
 
-## Trouble shooting
+This page contains problems/questions and their solutions/answers. The page is intended as a supplement to the user manual or the help file supplied with the program. Specific problems and questions are dealt with here, the solution or answer to which cannot be found in the user manual or is rather difficult to find. In particular, new problems or questions of general interest can be added here at short notice.
 
-This page contains problems/questions and their solutions/answers. New entries will be added at the top.
+New entries will be added at the top.
 
 ### Control elements are partially concealed or content is truncated
 The size of most masks can be adjusted. In some cases, the size of individual sections, especially in the main mask, can also be adjusted. Normally, a mask or area cannot be made so small that there is no longer room for all the control elements. In special cases, however, it is possible to make an area so small that control elements overlap or content is truncated so that more space is available in another, more important area.
