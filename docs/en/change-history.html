@@ -143,6 +143,33 @@
 
 <h1 id="change-history">Change History</h1>
 
+<h2 id="version-467-released-on-2025-06-23">Version 4.67 released on 2025-06-23</h2>
+
+<p>Enhancements and improvements:</p>
+
+<ul>
+  <li>When fields are added to tab “Overview” via context menu in Tab Exif, the format is now Interpreted instead of Original. In this way Exif.Image.XP… are editable in tab “Overview”.</li>
+  <li>When image orientation is changed via menu Zoom/Rotate or buttons in tool bar, this will be stored when saving the image.</li>
+  <li>Rotating the image by changing Exif.Image.Orientation is immediately applied to the image now.</li>
+  <li>Show a small earth icon in views thumbnails/tiles if image has GPS data.</li>
+  <li>Images can be shown as slide show (menu View/Slideshow).</li>
+  <li>New file view “Comment”: shows file name and comment assigned to image.</li>
+  <li>When fields are added to changeable fields via context menu, additional information is provided. Example: When adding fields for GPS data, as alternative changing GPS data via map is offered.</li>
+  <li>For the map, you can now select whether the scale is displayed in km or mi; the search circle in the “Search via properties” screen is defined accordingly in km or mi.</li>
+  <li>Map view: When searching for a location, an additional screen can be used to search via parameters, e.g. in a specific country.</li>
+  <li>Map view: If the search for a location returns several results, these are displayed in a table from which the appropriate location can be selected.</li>
+  <li>New option in the settings for the map view: Hide map if the selected image has no GPS data.</li>
+  <li>New menu item “Help / Troubleshooting”: Links to new page of quickimagecomment.de, where problems/questions and their solutions/answers can be found.</li>
+  <li>Update to exiv2 0.28.5.</li>
+</ul>
+
+<p>The following errors have been fixed:</p>
+
+<ul>
+  <li>Exif.Image.XP… was not editable in Tab Exif</li>
+  <li>Program crashed if a tag of type “LangAlt” was present without a language entry.</li>
+</ul>
+
 <h2 id="version-466-released-on-2025-03-28">Version 4.66 released on 2025-03-28</h2>
 
 <p>Enhancements and improvements:</p>

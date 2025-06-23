@@ -13,6 +13,29 @@ order: 7
 
 # Change History
 
+## Version 4.67 released on 2025-06-23
+
+Enhancements and improvements:
+
+* When fields are added to tab "Overview" via context menu in Tab Exif, the format is now Interpreted instead of Original. In this way Exif.Image.XP... are editable in tab "Overview".
+* When image orientation is changed via menu Zoom/Rotate or buttons in tool bar, this will be stored when saving the image.
+* Rotating the image by changing Exif.Image.Orientation is immediately applied to the image now.
+* Show a small earth icon in views thumbnails/tiles if image has GPS data.
+* Images can be shown as slide show (menu View/Slideshow).
+* New file view "Comment": shows file name and comment assigned to image.
+* When fields are added to changeable fields via context menu, additional information is provided. Example: When adding fields for GPS data, as alternative changing GPS data via map is offered.
+* For the map, you can now select whether the scale is displayed in km or mi; the search circle in the "Search via properties" screen is defined accordingly in km or mi.
+* Map view: When searching for a location, an additional screen can be used to search via parameters, e.g. in a specific country.
+* Map view: If the search for a location returns several results, these are displayed in a table from which the appropriate location can be selected.
+* New option in the settings for the map view: Hide map if the selected image has no GPS data.
+* New menu item "Help / Troubleshooting": Links to new page of quickimagecomment.de, where problems/questions and their solutions/answers can be found.
+* Update to exiv2 0.28.5.
+
+The following errors have been fixed:
+
+* Exif.Image.XP... was not editable in Tab Exif
+* Program crashed if a tag of type "LangAlt" was present without a language entry.
+
 ## Version 4.66 released on 2025-03-28
 
 Enhancements and improvements:

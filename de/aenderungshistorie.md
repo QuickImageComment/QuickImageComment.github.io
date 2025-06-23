@@ -13,6 +13,29 @@ order: 7
 
 # Änderungshistorie
 
+## Version 4.67 veröffentlicht am 23.06.2025
+
+Erweiterungen und Verbesserungen:
+
+* Wenn Felder auf den Reiter "Übersicht" über das Kontextmenü im Reiter Exif hinzugefügt werden, ist das Format jetzt Interpretiert statt Original. Auf diese Weise sind Exif.Image.XP... im Reiter "Übersicht" editierbar.
+* Wenn die Bildausrichtung über das Menü Zoomen/Drehen oder die Schaltflächen in der Symbolleiste geändert wird, wird dies beim Speichern des Bildes gespeichert.
+* Das Drehen des Bildes durch Ändern von Exif.Image.Orientation wird nun sofort auf das Bild angewendet.
+* Ein kleines Erdsymbol wird in den Miniaturansichten angezeigt, wenn das Bild GPS-Daten enthält.
+* Bilder können als Diashow angezeigt werden (Menü Ansicht/Diashow).
+* Neue Dateiansicht "Kommentar": zeigt den Dateinamen und den dem Bild zugeordneten Kommentar an.
+* Wenn Felder über das Kontextmenü zu änderbaren Feldern hinzugefügt werden, werden zusätzliche Informationen angezeigt. Beispiel: Beim Hinzufügen von Feldern für GPS-Daten wird als Alternative das Ändern der GPS-Daten über die Karte angeboten.
+* Für die Karte kann nun ausgewählt werden, ob der Maßstab in km oder mi angezeigt wird, entsprechend wird der Suchkreis in der Maske "Suche über Eigenschaften" in km oder mi definiert.
+* Kartenansicht: Bei der Suche nach einem Ort kann mittels einer zusätzlichen Maske über Parameter gesucht werden, z.B. in einem bestimmten Land.
+* Kartenansicht: Wenn die Suche nach einem Ort mehrere Ergebnisse liefert, werden diese in einer Tabelle angezeigt, aus der der passende Ort ausgewählt werden kann.
+* Neue Option in den Einstellungen für die Kartenansicht: Karte ausblenden, wenn das ausgewählte Bild keine GPS-Daten hat.
+* Neuer Menüeintrag "Hilfe / Problembehandlung": Verweist auf neue Seite von quickimagecomment.de, in der Probleme/Fragen und deren Lösung/Antwort zu finden sind.
+* Aktualisierung auf exiv2 0.28.5.
+
+Folgende Fehler wurden behoben:
+
+* Exif.Image.XP... war im Reiter Exif nicht editierbar
+* Program stürzte ab, wenn ein Tag vom Typ "LangAlt" ohne Spracheintrag vorhanden war.
+
 ## Version 4.66 veröffentlicht am 28.03.2025
 
 Erweiterungen und Verbesserungen:
