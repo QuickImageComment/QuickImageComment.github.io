@@ -22,6 +22,14 @@ File Dialog Extender by Robert Rhode
 [www.debugmode.com/wink/](//www.debugmode.com/wink/)<br>
 Wink is a Tutorial and Presentation creation software
 
+[https://exiftool.org]<br>
+ExifTool by Phil Harvey<br>
+Read, Write and Edit Meta Information!
+
+[https://exiftool.org/gui/articles/where_what.html]<br>
+Metadata: Where and what to save<br>
+Dieser Artikel richtet sich in erster Linie an Amateur-/Hobbyfotografen und soll helfen, den Weg durch den Metadaten-Dschungel zu finden.
+
 [www.exiv2.org](//www.exiv2.org)<br>
 exiv2: Image metadata library and tools
 

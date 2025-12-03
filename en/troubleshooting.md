@@ -16,6 +16,10 @@ This page contains problems/questions and their solutions/answers. The page is i
 
 New entries will be added at the top.
 
+### GPS coordinates without decimal places for the seconds
+
+The seconds of GPS coordinates are normally displayed with two decimal places. If no decimal places are displayed, the coordinates have probably been entered or changed manually without decimal places. Background: The seconds are saved as fractions, e.g. 54321/1000 for 54.321. The denominator of the fraction then defines the maximum number of decimal places. The display in QuickImageComment is limited to two decimal places and 54321/1000 is therefore displayed as 54.32. If the value 543/10 has been saved, only one decimal place is defined and the display is then 54.3 and 54/1 becomes 54.
+
 ### Control elements are partially concealed or content is truncated
 The size of most masks can be adjusted. In some cases, the size of individual sections, especially in the main mask, can also be adjusted. Normally, a mask or area cannot be made so small that there is no longer room for all the control elements. In special cases, however, it is possible to make an area so small that control elements overlap or content is truncated so that more space is available in another, more important area.
 

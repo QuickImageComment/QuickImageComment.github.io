@@ -16,6 +16,10 @@ Diese Seite enthält Probleme/Fragen und deren Lösungen/Antworten. Die Seite is
 
 Neue Einträge werden jeweils oben ergänzt.
 
+### GPS-Koordinaten ohne Nachkommastellen bei den Sekunden
+
+Normalerweise werden die Sekunden von GPS-Koordinaten mit zwei Nachkommastellen angezeigt. Wenn keine Nachkommastellen angezeigt werden, sind die Koordinaten vermutlich manuell ohne Nachkommastellen eingetragen oder verändert worden. Hintergrund: Die Sekunden werden als Brüche gespeichet, also z.B. 54321/1000 für 54,321. Der Nenner des Bruches definiert dann die maximale Anzahl von Nachkommastellen. Die Anzeige in QuickImageComment ist auf zwei Nachkommastellen beschränkt und 54321/1000 wird daher als 54,32 angezeigt. Wenn der Wert 543/10 gespeichert wurde, ist nur eine Nachkommastelle definiert und die Anzeige ist dann 54,3 und aus 54/1 wird 54.
+
 ### Bedienelemente sind teilweise verdeckt oder Inhalt ist abgeschnitten
 Die Größe der meisten Masken kann angepasst werden. In einigen Fällen kann auch die Größe einzelner Bereiche, insbesondere in der Hauptmaske, angepasst werden. Normalerweise kann eine Maske oder ein Bereich nicht so klein gemacht werden, dass nicht mehr alle Bedienelemente Platz finden. In besonderen Fällen ist es aber möglich, einen Bereich so klein zu machen, dass sich Bedienelemente überlappen oder Inhalte abgeschnitten sind, damit in einem anderen, wichtigeren Bereich mehr Platz zur Verfügung steht.
 

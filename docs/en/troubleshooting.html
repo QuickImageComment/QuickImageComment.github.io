@@ -95,6 +95,7 @@
       <nav>
     <ul class="navigation bullet">
      <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h3"><a href="#gps-coordinates-without-decimal-places-for-the-seconds">GPS coordinates without decimal places for the seconds</a></li>
 <li class="toc-entry toc-h3"><a href="#control-elements-are-partially-concealed-or-content-is-truncated">Control elements are partially concealed or content is truncated</a></li>
 <li class="toc-entry toc-h3"><a href="#texts-in-the-masks-are-not-translated">Texts in the masks are not translated</a></li>
 <li class="toc-entry toc-h3"><a href="#search-for-a-location-in-map-view-returns-no-result">Search for a location in map view returns no result</a></li>
@@ -108,6 +109,10 @@
 <p>This page contains problems/questions and their solutions/answers. The page is intended as a supplement to the user manual or the help file supplied with the program. Specific problems and questions are dealt with here, the solution or answer to which cannot be found in the user manual or is rather difficult to find. In particular, new problems or questions of general interest can be added here at short notice.</p>
 
 <p>New entries will be added at the top.</p>
+
+<h3 id="gps-coordinates-without-decimal-places-for-the-seconds">GPS coordinates without decimal places for the seconds</h3>
+
+<p>The seconds of GPS coordinates are normally displayed with two decimal places. If no decimal places are displayed, the coordinates have probably been entered or changed manually without decimal places. Background: The seconds are saved as fractions, e.g. 54321/1000 for 54.321. The denominator of the fraction then defines the maximum number of decimal places. The display in QuickImageComment is limited to two decimal places and 54321/1000 is therefore displayed as 54.32. If the value 543/10 has been saved, only one decimal place is defined and the display is then 54.3 and 54/1 becomes 54.</p>
 
 <h3 id="control-elements-are-partially-concealed-or-content-is-truncated">Control elements are partially concealed or content is truncated</h3>
 <p>The size of most masks can be adjusted. In some cases, the size of individual sections, especially in the main mask, can also be adjusted. Normally, a mask or area cannot be made so small that there is no longer room for all the control elements. In special cases, however, it is possible to make an area so small that control elements overlap or content is truncated so that more space is available in another, more important area.</p>
