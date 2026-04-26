@@ -1,4 +1,4 @@
-QuickImageComment zeigt Exif-, IPTC- und XMP-Eigenschaften von Digitalbildern (z.B. JPEG und TIFF sowie einigen RAW-Formaten) an und ermöglicht sie zu ändern. Speziell die Bearbeitung von Benutzerkommentar und Künstler (Autor) wird erleichtert, indem auf die letzten eingegebenen und auf vordefinierte Werte zurückgegriffen werden kann. Metadaten (XMP) in Video-Dateien werden angezeigt.
+QuickImageComment zeigt Exif-, IPTC- und XMP-Eigenschaften von Digitalbildern (z.B. JPEG und TIFF sowie einigen RAW-Formaten) an und ermöglicht sie zu ändern. Speziell die Bearbeitung von Benutzerkommentar und Künstler (Autor) wird erleichtert, indem auf die letzten eingegebenen und auf vordefinierte Werte zurückgegriffen werden kann. Metadaten (XMP) in Video-Dateien werden angezeigt. Falls die Nutzung von ExifTool von Phil Harvey konfiguriert ist, können auch Metadaten in Videos geändert werden.
 
 ### Übersicht der Funktionalitäten:
 - Anzeige aller Exif-, IPTC- und XMP-Eigenschaften von Bildern, außerdem noch einige andere Dateieigenschaften wie z.B. Änderungsdatum.
@@ -9,24 +9,26 @@ QuickImageComment zeigt Exif-, IPTC- und XMP-Eigenschaften von Digitalbildern (z
 - Daten-Vorlagen können definiert werden, um damit mehrere Eigenschaften gleichzeitig zu setzen.
 - Platzhalter erlauben es, Werte von Eigenschaften in andere zu kopieren.
 - Änderungen können auch für mehrere Dateien gleichzeitig durchgeführt werden.
-- Exif-, IPTC- und XMP-Eigenschaften können gelöscht werden, dabei können Ausnahmen definiert werden. Einzelne Eigenschaften können gezielt gelöscht werden.
+- Exif-, IPTC- und XMP-Eigenschaften können aus Bildern gelöscht werden, dabei können Ausnahmen definiert werden. Einzelne Eigenschaften können gezielt gelöscht werden.
 - Dateien können unter Verwendung von Exif, IPTC und XMP-Eigenschaften umbenannt werden.
 - Die in den Dateien enthaltenen Exif-, IPTC- und XMP-Eigenschaften können verglichen werden.
-- Eine spezielle Maske dient zum Synchronisieren der Aufnahmezeit einer Menge von Bildern, die mit verschiedenen Kameras aufgenommen wurden. Bilder werden nach Eigenschaften (meist Kamera-Modell) gruppiert. Für jede Gruppe kann eine Verschiebung der Aufnahmezeit eingegeben werden. Danach werden die Bilder sofort sortiert, um prüfen zu können, ob so die Bilder zeitlich in der richtigen Reihenfolge sind.
+- Eine spezielle Maske dient zum Synchronisieren der Aufnahmezeit einer Menge von Bildern/Videos, die mit verschiedenen Kameras aufgenommen wurden. Bilder/Videos werden nach Eigenschaften (meist Kamera-Modell) gruppiert. Für jede Gruppe kann eine Verschiebung der Aufnahmezeit eingegeben werden. Danach werden die Bilder/Videos sofort sortiert, um prüfen zu können, ob so die Bilder/Videos zeitlich in der richtigen Reihenfolge sind.
 - Ausgewählte Eigenschaften aller Bilder/Videos eines Ordners (einschließlich eventuell vorhandener Unterordner) können in eine Textdatei exportiert werden.
-- Alle Bildeigenschaften von ausgewählten Bildern/Videos können in Textdateien exportiert werden (eine Datei je Bild). 
+- Alle Bildeigenschaften von ausgewählten Bildern/Videos können in Textdateien exportiert werden (eine Datei je Bild/Video). 
 - Anzeige von Bilddetails mit graphischer und numerischer Darstellung von Helligkeit und RGB-Werten.
 - Anzeige des Aufnahmeortes auf einer Karte anhand der GPS-Koordinaten; Änderung der GPS-Koordinaten durch Wahl der Position auf der Karte.
-- Slideshow mit konfigurierbaren Untertiteln, zusammengesetzt aus Exif-, IPTC- und XMP-Eigenschaften.
+- Slideshow mit konfigurierbaren Untertiteln, bestehend aus Exif-, IPTC- und XMP-Eigenschaften.
 
-Eine weitere Bearbeitung der Bilder (z.B. Anpassen von Kontrast und Helligkeit) ist nicht Sinn und Zweck dieses Programms.
+Eine weitere Bearbeitung der Bilder/Videos (z.B. Anpassen von Kontrast und Helligkeit) ist nicht Sinn und Zweck dieses Programms.
 
 Für das Auslesen und Ändern der Exif-, IPTC- und XMP-Eigenschaften wird die Bibliothek exiv2 verwendet. Auf [www.exiv2.org](https://www.exiv2.org) findet man neben der Beschreibung dieser Bibliothek auch umfangreiche Informationen und weiterführende Links zu Exif, IPTC und XMP. Die von exiv2 unterstützten Formate sind hier dokumentiert:  
 [https://github.com/Exiv2/exiv2/blob/main/exiv2.md#file_types](https://github.com/Exiv2/exiv2/blob/main/exiv2.md#file_types)
 
+Zusätzlich kann ExifTool von Phil Harvey eingebunden werden. Auf www.exiftool.org findet man weitere Informationen zu diesem Programm, insbesondere, welche Formate und Tags unterstützt werden. Gegenüber exiv2 kann ExifTool auch in einige Video-Formate schreiben und unterstützt mehr Felder. Für die Verwendung von ExifTool sind Einstellungen vorzunehmen: Schaltfläche "Einstellungen ExifTool" in Maske "Einstellungen". Weitere Hinweise hierzu sowie ein kurzer Vergleich zwischen exiv2 und ExifTool in Einstellungen für ExifTool.
+
 Für die Anzeige von RAW-Bildern ist die LibRaw-Bibliothek integriert. Wenn der Codec des Kameraherstellers oder die Microsoft Raw Image Extension (die verschiedene RAW-Formate unterstützt) installiert sind, werden sie verwendet und die Anzeige ist dann in der Regel schneller. Man kann sowohl einen spezifischen Codec als auch die Microsoft-Erweiterung installieren. Der spezifische Codec wird dann für die entsprechenden Bilder verwendet. Für alle anderen wird zunächst die Microsoft Extension ausprobiert und als letzte Option die integrierte LibRaw-Bibliothek. Für die Anzeige der Metadaten wird kein Codec benötigt.
 
-Das Programm läuft unter Microsoft Windows 7, 8, 10 und 11 und ist als 32-Bit und 64-Bit Variante verfügbar. Als Sprache kann Deutsch oder Englisch gewählt werden. Weitere Sprachen können leicht ergänzt werden, wenn eine entsprechende Sprachdatei erstellt wird. Weitere Hinweise dazu unter: [Unterstützung für weitere Sprachen](unterstuetzung-fuer-weitere-sprachen.html)
+Das Programm läuft unter Microsoft Windows 7, 8, 10 und 11 und ist als 32-Bit und 64-Bit Variante verfügbar. Als Sprache kann Deutsch, Englisch oder Französisch gewählt werden. Die Übersetzung in Französisch wurde weitestgehend von einem hilfsbereiten Anwender erstellt, einige Ergänzungen wurden mit Deepl erstellt. Weitere Sprachen können leicht ergänzt werden, wenn eine entsprechende Sprachdatei erstellt wird. Weitere Hinweise dazu unter: [Unterstützung für weitere Sprachen](unterstuetzung-fuer-weitere-sprachen.html)
 
 Es gibt auch eine Variante mit leicht reduzierter Funktionalität, die unter Windows XP mit .Net 4.0 Framework läuft.
 

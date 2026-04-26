@@ -143,6 +143,34 @@
 
 <h1 id="änderungshistorie">Änderungshistorie</h1>
 
+<h2 id="version-500-veröffentlicht-am-26042026">Version 5.00 veröffentlicht am 26.04.2026</h2>
+
+<p>Erweiterungen und Verbesserungen:</p>
+
+<ul>
+  <li>Metadaten können zusätzlich über ExifTool gelesen und geschrieben werden. Gegenüber exiv2 (der Komponente, die bisher alleinig für Lesen und Schreiben von Metadaten verwendet wurde) kann ExifTool auch in einige Video-Formate schreiben und unterstützt mehr Felder. Das Ändern von Aufnahmedatum und -zeit ist auch für Videos möglich, das Entfernen von Metadaten wird für Videos jedoch noch nicht unterstützt.</li>
+  <li>Im zentralen Eingabebereich der Hauptmaske wird über Quickinfo angezeigt, in welche Felder Künstler (Autor) und Kommentar gespeichert werden. Dies ersetzt die alte Logik, bei der der Feldname als Beschriftung genutzt wurde.</li>
+  <li>Optional können Änderungen von Metadaten - auch außerhalb von QuickImageComment - protokolliert werden.</li>
+  <li>Start externer Programme über URI (z.B. Microsoft Photos)</li>
+  <li>Erkennung der Änderungen von Dateien außerhalb von QuickImageComment und entsprechende Aktualisierung in QuickImageComment ist nun zuverlässiger, allerdings wird mit diesem neuen Ansatz die Ordnerliste nicht mehr aktualisiert, sondern nur die Liste der angezeigten Bilder/Videos.</li>
+  <li>Nur für die .Net 4.6.1-Varianten: Neue Version 0.28.7 der exiv2-Bibliothek integriert: weitere Kameramodell- und Objektiv-IDs hinzugefügt und kleinere Bugs behoben.</li>
+  <li>Nur für die .Net 4.6.1-Varianten: Einige Tags speichern das Datum in Sekunden seit dem 01.01.1904: Diese werden nun im Datumsformat angezeigt.</li>
+  <li>Neuer allgemeiner Parameter: Beim Anlegen neuer Definitionen in Maske “Felddefinitionen” wird vollständiger Tag-Name als Name der Definition verwendet. Falls nicht auf “yes” gesetzt, wird wie bisher der letzte beschreibende Teil des Tag-Namens verwendet.</li>
+  <li>In der Maske “Einstellungen” kann nun auch Iptc.Application2.Byline für das Speichern von Künstler (Autor) ausgewählt werden.</li>
+</ul>
+
+<p>Folgende Fehler wurden behoben:</p>
+
+<ul>
+  <li>Reiter Exif/IPTC/XMP/Sonstige: Das Ein- und Ausblenden der Eigenschaften einer Gruppe funktionierte nicht.</li>
+</ul>
+
+<p>Hinweise:</p>
+<ul>
+  <li>Die Version 5.00 bietet neue Konfigurationsmöglichkeiten. Je nach Nutzung dieser Möglichkeiten empfiehlt es sich, die vorhandenen Benutzereinstellungen zu prüfen und ggfs. zu ändern. Details hierzu in der Hilfe unter Kapitel 2.3 Upgrades.</li>
+  <li>Die Benutzeranleitung enthält nun im Kapitel “Metadata Working Group (MWG)” einen Verweis auf die “Guidelines for handling image metadata”. Basierend auf diesen Guidelines sind Empfehlungen für die Konfiguration dieses Programmes ergänzt worden.</li>
+</ul>
+
 <h2 id="version-467-veröffentlicht-am-23062025">Version 4.67 veröffentlicht am 23.06.2025</h2>
 
 <p>Erweiterungen und Verbesserungen:</p>
@@ -1309,7 +1337,7 @@ Hinweis an dieser Stelle: Neue Sprachen können grundsätzlich ohne Programmänd
   <hr width="100%" size="2" color="grey" noshade>
   
   <p>
-    <a>&copy; Norbert Wagner 2024-2025</a><br>
+    <a>&copy; Norbert Wagner 2024-2026</a><br>
     <a>Hosted on GitHub Pages</a><br>
     <a>Website erstellt unter Verwendung von</a><br>
     <a href="https://github.com/pages-themes/leap-day">pages-theme leap-day</a><br>

@@ -13,6 +13,28 @@ order: 7
 
 # Änderungshistorie
 
+## Version 5.00 veröffentlicht am 26.04.2026
+
+Erweiterungen und Verbesserungen:
+
+* Metadaten können zusätzlich über ExifTool gelesen und geschrieben werden. Gegenüber exiv2 (der Komponente, die bisher alleinig für Lesen und Schreiben von Metadaten verwendet wurde) kann ExifTool auch in einige Video-Formate schreiben und unterstützt mehr Felder. Das Ändern von Aufnahmedatum und -zeit ist auch für Videos möglich, das Entfernen von Metadaten wird für Videos jedoch noch nicht unterstützt.
+* Im zentralen Eingabebereich der Hauptmaske wird über Quickinfo angezeigt, in welche Felder Künstler (Autor) und Kommentar gespeichert werden. Dies ersetzt die alte Logik, bei der der Feldname als Beschriftung genutzt wurde.
+* Optional können Änderungen von Metadaten - auch außerhalb von QuickImageComment - protokolliert werden.
+* Start externer Programme über URI (z.B. Microsoft Photos)
+* Erkennung der Änderungen von Dateien außerhalb von QuickImageComment und entsprechende Aktualisierung in QuickImageComment ist nun zuverlässiger, allerdings wird mit diesem neuen Ansatz die Ordnerliste nicht mehr aktualisiert, sondern nur die Liste der angezeigten Bilder/Videos.
+* Nur für die .Net 4.6.1-Varianten: Neue Version 0.28.7 der exiv2-Bibliothek integriert: weitere Kameramodell- und Objektiv-IDs hinzugefügt und kleinere Bugs behoben.
+* Nur für die .Net 4.6.1-Varianten: Einige Tags speichern das Datum in Sekunden seit dem 01.01.1904: Diese werden nun im Datumsformat angezeigt.
+* Neuer allgemeiner Parameter: Beim Anlegen neuer Definitionen in Maske "Felddefinitionen" wird vollständiger Tag-Name als Name der Definition verwendet. Falls nicht auf "yes" gesetzt, wird wie bisher der letzte beschreibende Teil des Tag-Namens verwendet.
+* In der Maske "Einstellungen" kann nun auch Iptc.Application2.Byline für das Speichern von Künstler (Autor) ausgewählt werden.
+
+Folgende Fehler wurden behoben:
+
+* Reiter Exif/IPTC/XMP/Sonstige: Das Ein- und Ausblenden der Eigenschaften einer Gruppe funktionierte nicht.
+
+Hinweise: 
+* Die Version 5.00 bietet neue Konfigurationsmöglichkeiten. Je nach Nutzung dieser Möglichkeiten empfiehlt es sich, die vorhandenen Benutzereinstellungen zu prüfen und ggfs. zu ändern. Details hierzu in der Hilfe unter Kapitel 2.3 Upgrades.
+* Die Benutzeranleitung enthält nun im Kapitel "Metadata Working Group (MWG)" einen Verweis auf die "Guidelines for handling image metadata". Basierend auf diesen Guidelines sind Empfehlungen für die Konfiguration dieses Programmes ergänzt worden. 
+
 ## Version 4.67 veröffentlicht am 23.06.2025
 
 Erweiterungen und Verbesserungen:

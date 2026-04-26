@@ -143,6 +143,34 @@
 
 <h1 id="change-history">Change History</h1>
 
+<h2 id="version-500-released-on-2026-04-26">Version 5.00 released on 2026-04-26</h2>
+
+<p>Enhancements and improvements:</p>
+
+<ul>
+  <li>Metadata can also be read and written via ExifTool. Compared to exiv2 (the component that was previously only used for reading and writing metadata), ExifTool can also write to some video formats and supports more fields. Changing recording date and time is possible also for videos, but removing meta data is not yet supported for videos.</li>
+  <li>In the central input area of the main screen, ToolTip displays the fields in which Artist (author) and comment are saved. This replaces the old logic where the label was used to show the field name.</li>
+  <li>Optionally, changes to metadata can be logged - even changes outside QuickImageComment.</li>
+  <li>Start of external programs via URI (e.g. Microsoft Photos)</li>
+  <li>Detection of changes to files outside QuickImageComment and corresponding updates in QuickImageComment is now more reliable, however, with this new approach, the folder list is no longer updated, only the list of displayed images/videos.</li>
+  <li>Only for the .Net 4.6.1 variants: New version 0.28.7 of the exiv2 library integrated: more camera model and lens IDs added and minor bugs fixed.</li>
+  <li>Only for the .Net 4.6.1 variants: Some tags store date in seconds since 1904-01-01: they are now shown in date format.</li>
+  <li>New general parameter: When creating new definitions in the “Field Definitions” mask, the complete tag name is used as the name of the definition. If not set to “yes,” the last descriptive part of the tag name will be used as before.</li>
+  <li>In the “Settings” dialog, you can now also select Iptc.Application2.Byline for saving artist (author) information.</li>
+</ul>
+
+<p>The following errors have been fixed:</p>
+
+<ul>
+  <li>Exif/IPTC/XMP/Other tab: Showing and hiding the properties of a group did not work.</li>
+</ul>
+
+<p>Notes:</p>
+<ul>
+  <li>Version 5.00 offers new configuration options. Depending on how you use these options, it is advisable to check your existing user settings and change them if necessary. For details, see the Help section under Chapter 2.3 Upgrades.</li>
+  <li>The user manual now includes a reference to the “Guidelines for handling image metadata” in the “Metadata Working Group (MWG)” chapter. Recommendations for configuring this program have been added based on these guidelines.</li>
+</ul>
+
 <h2 id="version-467-released-on-2025-06-23">Version 4.67 released on 2025-06-23</h2>
 
 <p>Enhancements and improvements:</p>
@@ -993,7 +1021,7 @@ Note at this point: New languages can generally be added without program changes
   <hr width="100%" size="2" color="grey" noshade>
   
   <p>
-    <a>&copy; Norbert Wagner 2024-2025</a><br>
+    <a>&copy; Norbert Wagner 2024-2026</a><br>
     <a>Hosted on GitHub Pages</a><br>
     <a>Site created using</a><br>
     <a href="https://github.com/pages-themes/leap-day">pages-theme leap-day</a><br>

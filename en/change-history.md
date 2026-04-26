@@ -13,6 +13,28 @@ order: 7
 
 # Change History
 
+## Version 5.00 released on 2026-04-26
+
+Enhancements and improvements:
+
+* Metadata can also be read and written via ExifTool. Compared to exiv2 (the component that was previously only used for reading and writing metadata), ExifTool can also write to some video formats and supports more fields. Changing recording date and time is possible also for videos, but removing meta data is not yet supported for videos.
+* In the central input area of the main screen, ToolTip displays the fields in which Artist (author) and comment are saved. This replaces the old logic where the label was used to show the field name.
+* Optionally, changes to metadata can be logged - even changes outside QuickImageComment.
+* Start of external programs via URI (e.g. Microsoft Photos)
+* Detection of changes to files outside QuickImageComment and corresponding updates in QuickImageComment is now more reliable, however, with this new approach, the folder list is no longer updated, only the list of displayed images/videos.
+* Only for the .Net 4.6.1 variants: New version 0.28.7 of the exiv2 library integrated: more camera model and lens IDs added and minor bugs fixed.
+* Only for the .Net 4.6.1 variants: Some tags store date in seconds since 1904-01-01: they are now shown in date format.
+* New general parameter: When creating new definitions in the "Field Definitions" mask, the complete tag name is used as the name of the definition. If not set to "yes," the last descriptive part of the tag name will be used as before.
+* In the "Settings" dialog, you can now also select Iptc.Application2.Byline for saving artist (author) information.
+
+The following errors have been fixed:
+
+* Exif/IPTC/XMP/Other tab: Showing and hiding the properties of a group did not work.
+
+Notes: 
+* Version 5.00 offers new configuration options. Depending on how you use these options, it is advisable to check your existing user settings and change them if necessary. For details, see the Help section under Chapter 2.3 Upgrades.
+* The user manual now includes a reference to the "Guidelines for handling image metadata" in the "Metadata Working Group (MWG)" chapter. Recommendations for configuring this program have been added based on these guidelines. 
+
 ## Version 4.67 released on 2025-06-23
 
 Enhancements and improvements:

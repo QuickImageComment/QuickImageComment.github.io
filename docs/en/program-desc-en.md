@@ -1,4 +1,4 @@
-QuickImageComment displays EXIF, IPTC, and XMP properties of digital images (e.g., JPEG and TIFF as well as some RAW formats) and allows to edit them. Especially editing of user comment and artist (author) is supported by using the last entered or predefined values. Metadata (XMP) in video files are displayed.
+QuickImageComment displays EXIF, IPTC, and XMP properties of digital images (e.g., JPEG and TIFF as well as some RAW formats) and allows to edit them. Especially editing of user comment and artist (author) is supported by using the last entered or predefined values. Metadata (XMP) in video files are displayed. If the use of ExifTool by Phil Harvey is configured, metadata in videos can be changed too.
 
 ### Overview of features:
 - Display of all EXIF, IPTC and XMP properties of images, as well as some other file properties such as modification date.
@@ -9,24 +9,26 @@ QuickImageComment displays EXIF, IPTC, and XMP properties of digital images (e.g
 - Data templates can be defined to set several properties in one step.
 - Via placeholder it is possible to copy values of properties in others.
 - Changes can be carried out simultaneously for two or more files.
-- EXIF, IPTC and XMP properties can be deleted, thereby exceptions can be defined. Single properties can be deleted selectively.
+- EXIF, IPTC and XMP properties can be deleted from images, thereby exceptions can be defined. Single properties can be deleted selectively.
 - Files can be renamed using Exif, IPTC and XMP properties.
 - The EXIF, IPTC and XMP properties contained in the files can be compared.
-- A special mask is used to synchronize the recording time of a set of images taken with different cameras. Images are grouped by properties (mostly camera model). For each group, a shift of the recording time can be entered. Then the images are immediately sorted in order to check whether the images are then in the correct timely order.
+- A special mask is used to synchronize the recording time of a set of images/videos taken with different cameras. Images/videos are grouped by properties (mostly camera model). For each group, a shift of the recording time can be entered. Then the images/videos are immediately sorted in order to check whether the images/videos are then in the correct timely order.
 - Selected image properties of all images/videos in a folder (including any subfolders) can be exported to a text file.
-- All image properties of selected images/videos can be exported to text files (one file per image).
+- All image properties of selected images/videos can be exported to text files (one file per image/video).
 - Display of image details with graphical and numerical representation of brightness and RGB values.
 - Display recording location in a map using the GPS coordinates; change of coordinates by selecting a position on the map.
 - Slideshow with configurable subtitles, composed of Exif, IPTC and XMP properties.
 
-Further processing of the images (e.g., adjusting the contrast and brightness) is not the purpose of this program.
+Further processing of the images/videos (e.g., adjusting the contrast and brightness) is not the purpose of this program.
 
 For reading and changing the EXIF, IPTC, and XMP properties the library exiv2 is used. On [www.exiv2.org](https://www.exiv2.org) a description of this library can be found as well as extensive information and links to Exif, IPTC and XMP. The formats supported by exiv2 are documented here:  
 [https://github.com/Exiv2/exiv2/blob/main/exiv2.md#file_types](https://github.com/Exiv2/exiv2/blob/main/exiv2.md#file_types)
 
+ExifTool by Phil Harvey can also be integrated. At www.exiftool.org you can find more information about this program, in particular which formats and tags are supported. Compared to exiv2, ExifTool can also write to some video formats and supports more fields. Settings must be made for the use of ExifTool: "ExifTool settings" button in Mask "Settings". Further information on this and a brief comparison between exiv2 and ExifTool in Settings for ExifTool.
+
 For displaying RAW images, the LibRaw library is integrated. If the camera manufacturer's codec or the Microsoft Raw Image Extension (which supports various RAW formats) are installed, they are used and then display is usually faster. One can install both a specific codec and the Microsoft Extension. The specific codec is then used for the corresponding images. For all others first the Microsoft Extension is tried and as last option the integrated LibRaw library. For the display of the metadata no codec is needed.
 
-The program runs under Microsoft Windows 7, 8, 10 and 11 and is available as 32-bit and 64-bit variant. German or English can be selected as the language. Other languages can easily be added if a corresponding language file is created. Further information can be found here: 
+The program runs under Microsoft Windows 7, 8, 10 and 11 and is available as 32-bit and 64-bit variant. German, English or French can be selected as the language. The translation into French was largely done by a helpful user, some additions were made with Deepl. Other languages can easily be added if a corresponding language file is created. Further information can be found here: 
 [Support for additional languages](support-for-additional-languages.html)
 
 There is also a variant with slightly reduced functionality available, which runs on Windows XP with .Net 4.0 framework.

@@ -61,10 +61,10 @@
 	<Program_Info>
 		<AppID>app-07008b201973</AppID>
 		<Program_Name>QuickImageComment</Program_Name>
-		<Program_Version>4.67</Program_Version>
-		<Program_Release_Month>06</Program_Release_Month>
-		<Program_Release_Day>23</Program_Release_Day>
-		<Program_Release_Year>2025</Program_Release_Year>
+		<Program_Version>5.00</Program_Version>
+		<Program_Release_Month>04</Program_Release_Month>
+		<Program_Release_Day>26</Program_Release_Day>
+		<Program_Release_Year>2026</Program_Release_Year>
 		<Program_Cost_Dollars>0.00</Program_Cost_Dollars>
 		<Program_Type>Freeware</Program_Type>
 		<Program_Category_Class>Graphic Apps::Viewers</Program_Category_Class>
@@ -74,7 +74,7 @@
 		<Program_Install_Support>No Install Support</Program_Install_Support>
 		<Program_Target_Platform>Windows</Program_Target_Platform>
 		<Program_OS_Support>Win7 x32,Win7 x64,WinVista,WinXP,Windows 8,Windows 10,Windows 11</Program_OS_Support>
-		<Program_Language>German,English</Program_Language>
+		<Program_Language>German,English,French</Program_Language>
 		<Program_Change_Info>Enhancements and improvements:
 Display of direction and angle of view in map.
 New version 0.21.3 of library LibRaw integrated, which supports for 4-component JPEG-compressed DNG files.</Program_Change_Info>
@@ -114,8 +114,8 @@ New version 0.21.3 of library LibRaw integrated, which supports for 4-component 
 			<Video_Link_2_URL/>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v4.66/QIC-64Bit-4.67.zip</Primary_Download_URL>
-			<Secondary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v4.66/QIC-32Bit-4.67.zip</Secondary_Download_URL>
+			<Primary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v5.00/QIC-64Bit-5.00.zip</Primary_Download_URL>
+			<Secondary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v5.00/QIC-32Bit-5.00.zip</Secondary_Download_URL>
 			<Additional_Download_URL_1/>
 			<Additional_Download_URL_2/>
 		</Download_URLs>
@@ -310,11 +310,11 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<NewsFeed_Keywords/>
 	</NewsFeed>
 	<Press_Release>
-		<Press_Release>Enhancements and improvements: When fields are added to tab &quot;Overview&quot; via context menu in Tab Exif, the format is now Interpreted instead of Original. In this way Exif.Image.XP... are editable in tab &quot;Overview&quot;. When image orientation is changed via menu Zoom/Rotate or buttons in tool bar, this will be stored when saving the image. Rotating the image by changing Exif.Image.Orientation is immediately applied to the image now. Show a small earth icon in views thumbnails/tiles if image has GPS data. Images can be shown as slide show (menu View/Slideshow). New file view &quot;Comment&quot;: shows file name and comment assigned to image. When fields are added to changeable fields via context menu, additional information is provided. Example: When adding fields for GPS data, as alternative changing GPS data via map is offered. For the map, you can now select whether the scale is displayed in km or mi; the search circle in the &quot;Search via properties&quot; screen is defined accordingly in km or mi. Map view: When searching for a location, an additional screen can be used to search via parameters, e.g. in a specific country. Map view: If the search for a location returns several results, these are displayed in a table from which the appropriate location can be selected. New option in the settings for the map view: Hide map if the selected image has no GPS data. New menu item &quot;Help / Troubleshooting&quot;: Links to new page of quickimagecomment.de, where problems/questions and their solutions/answers can be found. Update to exiv2 0.28.5. The following errors have been fixed: Exif.Image.XP... was not editable in Tab Exif. Program crashed if a tag of type &quot;LangAlt&quot; was present without a language entry.</Press_Release>
+		<Press_Release>Enhancements and improvements:  * Metadata can also be read and written via ExifTool. Compared to exiv2 (the component that was previously only used for reading and writing metadata), ExifTool can also write to some video formats and supports more fields. Changing recording date and time is possible also for videos, but removing meta data is not yet supported for videos. * In the central input area of the main screen, ToolTip displays the fields in which Artist (author) and comment are saved. This replaces the old logic where the label was used to show the field name. * Optionally, changes to metadata can be logged - even changes outside QuickImageComment. * Start of external programs via URI (e.g. Microsoft Photos) * Detection of changes to files outside QuickImageComment and corresponding updates in QuickImageComment is now more reliable, however, with this new approach, the folder list is no longer updated, only the list of displayed images/videos. * Only for the .Net 4.6.1 variants: New version 0.28.7 of the exiv2 library integrated: more camera model and lens IDs added and minor bugs fixed. * Only for the .Net 4.6.1 variants: Some tags store date in seconds since 1904-01-01: they are now shown in date format. * New general parameter: When creating new definitions in the &quot;Field Definitions&quot; mask, the complete tag name is used as the name of the definition. If not set to &quot;yes,&quot; the last descriptive part of the tag name will be used as before. * In the &quot;Settings&quot; dialog, you can now also select Iptc.Application2.Byline for saving artist (author) information.  The following errors have been fixed:  * Exif/IPTC/XMP/Other tab: Showing and hiding the properties of a group did not work.</Press_Release>
 		<Keywords>EXIF, IPTC, XMP, JPG, TIFF, RAW, image, rename, meta data, read, show, display, change, edit, delete, remove, recording date, recording time, free software, freeware, GNU General Public License GPL</Keywords>
-		<Headline>New Version 4.67 of QuickImageComment</Headline>
-		<Summary>The new version 4.67 of QuickImageComment is now published on https://www.quickimagecomment.de.</Summary>
-		<Press_Release_Plain>Enhancements and improvements: When fields are added to tab &quot;Overview&quot; via context menu in Tab Exif, the format is now Interpreted instead of Original. In this way Exif.Image.XP... are editable in tab &quot;Overview&quot;. When image orientation is changed via menu Zoom/Rotate or buttons in tool bar, this will be stored when saving the image. Rotating the image by changing Exif.Image.Orientation is immediately applied to the image now. Show a small earth icon in views thumbnails/tiles if image has GPS data. Images can be shown as slide show (menu View/Slideshow). New file view &quot;Comment&quot;: shows file name and comment assigned to image. When fields are added to changeable fields via context menu, additional information is provided. Example: When adding fields for GPS data, as alternative changing GPS data via map is offered. For the map, you can now select whether the scale is displayed in km or mi; the search circle in the &quot;Search via properties&quot; screen is defined accordingly in km or mi. Map view: When searching for a location, an additional screen can be used to search via parameters, e.g. in a specific country. Map view: If the search for a location returns several results, these are displayed in a table from which the appropriate location can be selected. New option in the settings for the map view: Hide map if the selected image has no GPS data. New menu item &quot;Help / Troubleshooting&quot;: Links to new page of quickimagecomment.de, where problems/questions and their solutions/answers can be found. Update to exiv2 0.28.5. The following error has been fixed: Exif.Image.XP... was not editable in Tab Exif. Program crashed if a tag of type &quot;LangAlt&quot; was present without a language entry.</Press_Release_Plain>
+		<Headline>New Version 5.00 of QuickImageComment</Headline>
+		<Summary>The new version 5.00 of QuickImageComment is now published on https://www.quickimagecomment.de.</Summary>
+		<Press_Release_Plain>Enhancements and improvements:  * Metadata can also be read and written via ExifTool. Compared to exiv2 (the component that was previously only used for reading and writing metadata), ExifTool can also write to some video formats and supports more fields. Changing recording date and time is possible also for videos, but removing meta data is not yet supported for videos. * In the central input area of the main screen, ToolTip displays the fields in which Artist (author) and comment are saved. This replaces the old logic where the label was used to show the field name. * Optionally, changes to metadata can be logged - even changes outside QuickImageComment. * Start of external programs via URI (e.g. Microsoft Photos) * Detection of changes to files outside QuickImageComment and corresponding updates in QuickImageComment is now more reliable, however, with this new approach, the folder list is no longer updated, only the list of displayed images/videos. * Only for the .Net 4.6.1 variants: New version 0.28.7 of the exiv2 library integrated: more camera model and lens IDs added and minor bugs fixed. * Only for the .Net 4.6.1 variants: Some tags store date in seconds since 1904-01-01: they are now shown in date format. * New general parameter: When creating new definitions in the &quot;Field Definitions&quot; mask, the complete tag name is used as the name of the definition. If not set to &quot;yes,&quot; the last descriptive part of the tag name will be used as before. * In the &quot;Settings&quot; dialog, you can now also select Iptc.Application2.Byline for saving artist (author) information.  The following errors have been fixed:  * Exif/IPTC/XMP/Other tab: Showing and hiding the properties of a group did not work.</Press_Release_Plain>
 		<Related_URL>https://www.quickimagecomment.de</Related_URL>
 	</Press_Release>
 	<Site>
