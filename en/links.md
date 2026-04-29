@@ -22,11 +22,11 @@ File Dialog Extender by Robert Rhode
 [www.debugmode.com/wink/](//www.debugmode.com/wink/)<br>
 Wink is a Tutorial and Presentation creation software
 
-[https://exiftool.org]<br>
+[https://exiftool.org](https://exiftool.org)<br>
 ExifTool by Phil Harvey<br>
 Read, Write and Edit Meta Information!
 
-[https://exiftool.org/gui/articles/where_what.html]<br>
+[https://exiftool.org/gui/articles/where_what.html](https://exiftool.org/gui/articles/where_what.html)<br>
 Metadata: Where and what to save<br>
 This article is ment for amateur/hobby photographers in first place and should help to find the way thru metadata jungle.
 
@@ -35,6 +35,12 @@ exiv2: Image metadata library and tools
 
 [www.exiv2.org/metadata.html](//www.exiv2.org/metadata.html)<br>
 exiv2: Image metadata library and tools - Metadata reference tables
+
+[https://web.archive.org/web/20181007091321/http://www.metadataworkinggroup.com/](https://web.archive.org/web/20181007091321/http://www.metadataworkinggroup.com/)<br>
+Archive of Metadata Working Group (MWG)
+
+[https://web.archive.org/web/20180919181934/http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf](https://web.archive.org/web/20180919181934/http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)<br>
+MWG Guidelines for handling image metadata
 
 [www.fsf.org/](//www.fsf.org/)<br>
 Free Software Foundation
