@@ -23,10 +23,15 @@ Das Benutzerhandbuch kann als PDF-Datei heruntergeladen werden. Der Inhalt entsp
 Der Quellcode ist auf GitHub verfügbar:
 [https://github.com/QuickImageComment/QuickImageComment](https://github.com/QuickImageComment/QuickImageComment)
 
-Eine Sprachdatei für Japanisch ist verfügbar, die in den bisherigen Zip-Dateien nicht enthalten ist. Zur Verwendung ist sie in den Unterordner "config" des Ordners, in dem QuickImageComment gespeichert ist, abzulegen.
-
-[Sprachdatei für Japanisch](https://github.com/QuickImageComment/QuickImageComment/releases/download/v5.00/
-QIC_Language_Japanese.cfg)
+{% assign version = "5.01" %}
+### Version {{ version }}
+[Program 64-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
+QIC-64Bit-{{ version }}.zip)<br>
+[Program 32-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
+QIC-32Bit-{{ version }}.zip)<br>
+[Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
+QIC-Net4WinXP-{{ version }}.zip)<br>
+[Benutzeranleitung](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/QIC_Benutzeranleitung-{{ version }}.pdf)
 
 {% assign version = "5.00" %}
 ### Version {{ version }}
@@ -69,16 +74,6 @@ QIC-Net4WinXP-{{ version }}.zip)<br>
 [Benutzeranleitung](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/QIC_Benutzeranleitung-{{ version }}.pdf)
 
 {% assign version = "4.64" %}
-### Version {{ version }}
-[Program 64-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
-QIC-64Bit-{{ version }}.zip)<br>
-[Program 32-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
-QIC-32Bit-{{ version }}.zip)<br>
-[Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
-QIC-Net4WinXP-{{ version }}.zip)<br>
-[Benutzeranleitung](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/QIC_Benutzeranleitung-{{ version }}.pdf)
-
-{% assign version = "4.63" %}
 ### Version {{ version }}
 [Program 64-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
 QIC-64Bit-{{ version }}.zip)<br>

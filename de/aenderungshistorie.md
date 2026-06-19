@@ -13,6 +13,21 @@ order: 7
 
 # Änderungshistorie
 
+## Version 5.01 veröffentlicht am 19.06.2026
+
+Erweiterungen und Verbesserungen:
+
+* Neu: Sprachdatei für Japanisch. Dank an coolvitto für Erstellung der Übersetzung.
+* Das Bild in der Hauptmaske und in der Maske "Bild Details" kann mittels Mausrad gezoomed werden.
+* Maske "Bild Details": alle Einstellungsänderungen werden direkt von dem übergeordneten auf die untergeordneten Fenster übertragen. Dadurch ist die Schaltfläche "Andere Fenster gleich" entfallen.
+* Wenn das Bild einen Wert für Exif.Fujifilm.FocusPoint enthält, kann der Fokuspunkt angezeigt werden. In der Hauptmaske über "Ansicht - Fokuspunkt anzeigen", in der Maske "Bild Details" über Ankreuzfeld.
+* In der Dateiliste wird bei Ansicht "Details" auch der Kommentar angezeigt.
+
+Folgende Fehler wurden behoben:
+
+* Auch wenn Exiftool konfiguriert war, wurden GPS-Daten, Künstler, Kommentar, Schlüsselworte und Bildorientierung nicht in .HEIC/.HEIF gespeichert. Hinweis: Diese Fehlerkorrektur betrifft nicht das Speichern von Werten aus dem konfigurierbaren Eingabebereich. Sie ist ggfs. auch nicht wirksam, wenn Tags in der allgemeinen Konfigurationsdatei geändert wurden. In beiden Fällen ist selbst darauf zu achten, dass nur Exiftool-Tags verwendet werden.
+* Das Programm blockierte bei großen Bildern (40 MP) in Ansicht 4:1.
+
 ## Version 5.00 veröffentlicht am 26.04.2026
 
 Erweiterungen und Verbesserungen:

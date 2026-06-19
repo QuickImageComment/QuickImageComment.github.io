@@ -19,7 +19,7 @@ The user manual is included as Microsoft Help File in the ZIP-file with the prog
 
 or can be downloaded as PDF-file:
 
-{% assign version = "5.00" %}
+{% assign version = "5.01" %}
 [User Manual Version {{ version }}](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/QIC_User_Manual-{{ version }}.pdf)
 
 Tutorials are available on [YouTube](https://www.youtube.com/channel/UCrTOh1TBYB2e_4rANDnN6BA).

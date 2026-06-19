@@ -13,6 +13,21 @@ order: 7
 
 # Change History
 
+## Version 5.01 released on 2026-06-19
+
+Enhancements and improvements:
+
+* New: Japanese language file. Thanks to coolvitto for providing the translation.
+* You can zoom in on the image in the main window and in the mask "Image Details"  using the mouse wheel.
+* Mask "Image Details": All setting changes are automatically applied from the superior window to the secondary windows. As a result, the "Apply to Other Windows" button has been removed.
+* If the image contains a value for Exif.Fujifilm.FocusPoint, the focus point can be displayed. In the main window via “View - Show focus point” and in the mask “Image Details” via a checkbox.
+* In the file list, the comment is also displayed in “Details” view.
+
+The following errors have been fixed:
+
+* Even when Exiftool was configured, GPS data, artist, comments, keywords and image orientation were not saved in .HEIC/.HEIF files. Note: This bug fix does not affect the saving of values from the configurable input area. It may also not take effect if tags have been changed in the general configuration file. In both cases, you must ensure that only Exiftool tags are used.
+* The program would freeze when handling large images (40 MP) in 4:1 view.
+
 ## Version 5.00 released on 2026-04-26
 
 Enhancements and improvements:
