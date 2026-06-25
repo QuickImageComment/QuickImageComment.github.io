@@ -13,6 +13,12 @@ order: 7
 
 # Change History
 
+## Version 5.02 released on 2026-06-25
+
+The following error has been fixed:
+
+*  An error could occur when reading .heic files, causing ExifTool data not to be displayed. If this happened during saving, an additional false error message would appear stating that the values were not saved. Details in [Github issue #19](https://github.com/QuickImageComment/QuickImageComment/issues/19)
+
 ## Version 5.01 released on 2026-06-19
 
 Enhancements and improvements:

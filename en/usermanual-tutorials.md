@@ -22,4 +22,6 @@ or can be downloaded as PDF-file:
 {% assign version = "5.01" %}
 [User Manual Version {{ version }}](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/QIC_User_Manual-{{ version }}.pdf)
 
+Note: Compared to 5.01, only bugs have been fixed and there have been no changes to the user manual. Therefore, please continue to use the user manual from 5.01.
+
 Tutorials are available on [YouTube](https://www.youtube.com/channel/UCrTOh1TBYB2e_4rANDnN6BA).

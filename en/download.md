@@ -23,6 +23,16 @@ The User Manual can be downloaded as a PDF file. The content corresponds to the 
 Source code is available on GitHub:
 [https://github.com/QuickImageComment/QuickImageComment](https://github.com/QuickImageComment/QuickImageComment)
 
+{% assign version = "5.02" %}
+### Version {{ version }}
+[Program 64-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
+QIC-64Bit-{{ version }}.zip)<br>
+[Program 32-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
+QIC-32Bit-{{ version }}.zip)<br>
+[Program 32-Bit for Windows XP with .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
+QIC-Net4WinXP-{{ version }}.zip)<br>
+Compared to 5.01, only bugs have been fixed and there have been no changes to the user manual. Therefore, please continue to use the user manual from 5.01.
+
 {% assign version = "5.01" %}
 ### Version {{ version }}
 [Program 64-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
@@ -64,16 +74,6 @@ QIC-Net4WinXP-{{ version }}.zip)<br>
 [User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/QIC_User_Manual-{{ version }}.pdf)
 
 {% assign version = "4.65" %}
-### Version {{ version }}
-[Program 64-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
-QIC-64Bit-{{ version }}.zip)<br>
-[Program 32-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
-QIC-32Bit-{{ version }}.zip)<br>
-[Program 32-Bit for Windows XP with .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
-QIC-Net4WinXP-{{ version }}.zip)<br>
-[User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/QIC_User_Manual-{{ version }}.pdf)
-
-{% assign version = "4.64" %}
 ### Version {{ version }}
 [Program 64-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/v{{ version }}/
 QIC-64Bit-{{ version }}.zip)<br>

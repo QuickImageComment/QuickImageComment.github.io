@@ -61,9 +61,9 @@
 	<Program_Info>
 		<AppID>app-07008b201973</AppID>
 		<Program_Name>QuickImageComment</Program_Name>
-		<Program_Version>5.01</Program_Version>
+		<Program_Version>5.02</Program_Version>
 		<Program_Release_Month>06</Program_Release_Month>
-		<Program_Release_Day>19</Program_Release_Day>
+		<Program_Release_Day>25</Program_Release_Day>
 		<Program_Release_Year>2026</Program_Release_Year>
 		<Program_Cost_Dollars>0.00</Program_Cost_Dollars>
 		<Program_Type>Freeware</Program_Type>
@@ -75,16 +75,15 @@
 		<Program_Target_Platform>Windows</Program_Target_Platform>
 		<Program_OS_Support>Win7 x32,Win7 x64,WinVista,WinXP,Windows 8,Windows 10,Windows 11</Program_OS_Support>
 		<Program_Language>German,English,French,Japanese</Program_Language>
-		<Program_Change_Info>Minor enhancements and improvements.
-The following error has been fixed:
-Even when Exiftool was configured, GPS data, artist, comments, keywords and image orientation were not saved in .HEIC/.HEIF files. Note: This bug fix does not affect the saving of values from the configurable input area.</Program_Change_Info>
+		<Program_Change_Info>The following error has been fixed:
+An error could occur when reading .heic files, causing ExifTool data not to be displayed. If this happened during saving, an additional false error message would appear stating that the values were not saved. Details in https://github.com/QuickImageComment/Q</Program_Change_Info>
 		<Program_System_Requirements>512 MB free main memory; 30 MB disk space</Program_System_Requirements>
 		<Limitations>No limitations</Limitations>
 		<Awards/>
 		<File_Info>
-			<File_Size_Bytes>15396096</File_Size_Bytes>
-			<File_Size_K>15035</File_Size_K>
-			<File_Size_MB>14.68</File_Size_MB>
+			<File_Size_Bytes>15401713</File_Size_Bytes>
+			<File_Size_K>15040</File_Size_K>
+			<File_Size_MB>14.69</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
 			<Has_Expire_Info>N</Has_Expire_Info>
@@ -114,8 +113,8 @@ Even when Exiftool was configured, GPS data, artist, comments, keywords and imag
 			<Video_Link_2_URL/>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v5.01/QIC-64Bit-5.01.zip</Primary_Download_URL>
-			<Secondary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v5.01/QIC-32Bit-5.01.zip</Secondary_Download_URL>
+			<Primary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v5.02/QIC-64Bit-5.02.zip</Primary_Download_URL>
+			<Secondary_Download_URL>http://github.com/QuickImageComment/QuickImageComment/releases/download/v5.02/QIC-32Bit-5.02.zip</Secondary_Download_URL>
 			<Additional_Download_URL_1/>
 			<Additional_Download_URL_2/>
 		</Download_URLs>
@@ -310,11 +309,15 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<NewsFeed_Keywords/>
 	</NewsFeed>
 	<Press_Release>
-		<Press_Release>Enhancements and improvements:&lt;br>&lt;br>* New: Japanese language file. Thanks to coolvitto for providing the translation.&lt;br>* You can zoom in on the image in the main window and in the mask &quot;Image Details&quot;  using the mouse wheel.&lt;br>* Mask &quot;Image Details&quot;: All setting changes are automatically applied from the superior window to the secondary windows. As a result, the &quot;Apply to Other Windows&quot; button has been removed.&lt;br>* If the image contains a value for Exif.Fujifilm.FocusPoint, the focus point can be displayed. In the main window via “View - Show focus point” and in the mask “Image Details” via a checkbox.&lt;br>* In the file list, the comment is also displayed in “Details” view.&lt;br>&lt;br>The following errors have been fixed:&lt;br>&lt;br>* Even when Exiftool was configured, GPS data, artist, comments, keywords and image orientation were not saved in .HEIC/.HEIF files. Note: This bug fix does not affect the saving of values from the configurable input area. It may also not take effect if tags have been changed in the general configuration file. In both cases, you must ensure that only Exiftool tags are used.&lt;br>* The program would freeze when handling large images (40 MP) in 4:1 view.</Press_Release>
+		<Press_Release>The following error has been fixed:
+
+*  An error could occur when reading .heic files, causing ExifTool data not to be displayed. If this happened during saving, an additional false error message would appear stating that the values were not saved. Details in https://github.com/QuickImageComment/QuickImageComment/issues/19</Press_Release>
 		<Keywords>EXIF, IPTC, XMP, JPG, TIFF, RAW, image, rename, meta data, read, show, display, change, edit, delete, remove, recording date, recording time, free software, freeware, GNU General Public License GPL</Keywords>
 		<Headline>New Version 5.01 of QuickImageComment</Headline>
-		<Summary>The new version 5.01 of QuickImageComment is now published on https://www.quickimagecomment.de.</Summary>
-		<Press_Release_Plain>Enhancements and improvements:&lt;br>&lt;br>* New: Japanese language file. Thanks to coolvitto for providing the translation.&lt;br>* You can zoom in on the image in the main window and in the mask &quot;Image Details&quot;  using the mouse wheel.&lt;br>* Mask &quot;Image Details&quot;: All setting changes are automatically applied from the superior window to the secondary windows. As a result, the &quot;Apply to Other Windows&quot; button has been removed.&lt;br>* If the image contains a value for Exif.Fujifilm.FocusPoint, the focus point can be displayed. In the main window via “View - Show focus point” and in the mask “Image Details” via a checkbox.&lt;br>* In the file list, the comment is also displayed in “Details” view.&lt;br>&lt;br>The following errors have been fixed:&lt;br>&lt;br>* Even when Exiftool was configured, GPS data, artist, comments, keywords and image orientation were not saved in .HEIC/.HEIF files. Note: This bug fix does not affect the saving of values from the configurable input area. It may also not take effect if tags have been changed in the general configuration file. In both cases, you must ensure that only Exiftool tags are used.&lt;br>* The program would freeze when handling large images (40 MP) in 4:1 view.</Press_Release_Plain>
+		<Summary>The new version 5.02 of QuickImageComment is now published on https://www.quickimagecomment.de.</Summary>
+		<Press_Release_Plain>The following error has been fixed:
+
+*  An error could occur when reading .heic files, causing ExifTool data not to be displayed. If this happened during saving, an additional false error message would appear stating that the values were not saved. Details in https://github.com/QuickImageComment/QuickImageComment/issues/19</Press_Release_Plain>
 		<Related_URL>https://www.quickimagecomment.de</Related_URL>
 	</Press_Release>
 	<Site>
